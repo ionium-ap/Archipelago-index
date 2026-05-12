@@ -53,7 +53,7 @@ This makes it easier to update and can be used to automatically fetch newer vers
     - Lambda variable capture issues (typically creates incorrect rule conditions)
     - Item/Location references match check (i.e. if Item A is on Location A, both of these should point to each other)
     - No stage output item/location changes (rogue behaviour, do not do this)
-  - Some exceptions could be made for failures happening early during generation (before `generate_basic`) as those would most likely be detectd by YAML validation and won't result in a big time loss during generation
+  - Some exceptions could be made for failures happening early during generation (before `generate_basic`) as those would most likely be detected by YAML validation and won't result in a big time loss during generation
 - If the apworld is a beta for core verified game then it must have a different game name (`LADX` -> `LADX beta`)
 
 - Note: Other Fuzzer tests may also be done on the world at the time of merging into the index, at the benefit of helping devs discover other types of bugs such as:
