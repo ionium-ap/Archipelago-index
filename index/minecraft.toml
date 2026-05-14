@@ -1,0 +1,7 @@
+name = "Minecraft"
+display_name = "Minecraft NeoForge"
+home = "https://discord.com/channels/731205301247803413/8371361856621117461"
+default_url = "https://github.com/qixils/NeoForgeAP/releases/download/v{{version}}/minecraft.apworld"
+
+[versions]
+"2.1.3" = {}
