@@ -4,3 +4,4 @@ default_url = "https://github.com/KitLemonfoot/ArchipelagoMIUU/releases/download
 
 [versions]
 "0.1.1-alpha" = {}
+"0.2.0-alpha" = {}
