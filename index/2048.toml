@@ -1,0 +1,6 @@
+name = "2048"
+home = "https://discord.com/channels/731205301247803413/1496686085185736826"
+default_url = "https://github.com/Ishigh1/Archipelago/releases/download/2048-{{version}}/2048.apworld"
+
+[versions]
+"1.1.2" = {}
