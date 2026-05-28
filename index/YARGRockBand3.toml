@@ -4,3 +4,4 @@ display_name = "Rock Band 3"
 
 [versions]
 "26.2.21" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.02.21/YARGRockBand3.apworld" }
+"1.3.0" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.04.12/YARGRockBand3.apworld" }
