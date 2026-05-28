@@ -5,3 +5,4 @@ default_url = "https://github.com/c-ostic/Archipelago/releases/download/v{{versi
 [versions]
 "0.3.3-alpha" = {}
 "0.4.1" = {}
+"0.4.2" = {}
