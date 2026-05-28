@@ -5,3 +5,4 @@ default_url = "https://github.com/willekeh/Manual/releases/download/PSS_v{{versi
 
 [versions]
 "0.0.4" = {}
+"0.0.5" = {}
