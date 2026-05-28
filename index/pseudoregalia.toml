@@ -10,4 +10,4 @@ default_url = "https://github.com/qwint/pseudoregalia-archipelago/releases/downl
 "0.9.3" = {}
 "0.9.4" = {}
 "0.10.1" = {}
-"0.10.2" = {}
+"0.10.2" = { url = "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases/download/0.10.2/pseudoregalia.apworld" }
