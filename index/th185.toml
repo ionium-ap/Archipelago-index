@@ -4,3 +4,4 @@ home = "https://discord.com/channels/731205301247803413/1346288808512983040"
 
 [versions]
 "0.3.5" = { url = "https://github.com/furret78/ap185-maintenance/releases/download/maintenance-0.3.5/th185.apworld" }
+"0.4.1" = { url = "https://github.com/furret78/Archipelago/releases/download/unstable-0.4.1/th185.apworld" }
