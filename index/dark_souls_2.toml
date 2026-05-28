@@ -4,3 +4,4 @@ default_url = "https://github.com/WildBunnie/DarkSoulsII-Archipelago/releases/do
 
 [versions]
 "0.5.5" = {}
+"0.5.5-hotfix" = {}
