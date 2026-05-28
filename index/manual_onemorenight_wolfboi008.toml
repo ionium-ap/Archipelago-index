@@ -5,3 +5,4 @@ default_url = "https://github.com/WolfBoi008/One-More-Night/releases/download/{{
 
 [versions]
 "2.2.1" = {}
+"2.3.1" = {}
