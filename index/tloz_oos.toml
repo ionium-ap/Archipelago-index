@@ -4,3 +4,4 @@ default_url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-
 
 [versions]
 "20.1.7" = {}
+"20.1.13" = {}
