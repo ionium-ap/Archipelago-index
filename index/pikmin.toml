@@ -1,6 +1,6 @@
 name = "Pikmin"
-home = https://discord.com/channels/731205301247803413/1397286080184844390
-default_url = https://github.com/Poke714/Archipelago/releases/download/v0.1.0/pikmin.apworld
+home = "https://discord.com/channels/731205301247803413/1397286080184844390"
+default_url = "https://github.com/Poke714/Archipelago/releases/download/v0.1.0/pikmin.apworld"
 
 [versions]
 "0.1.0" = {}
