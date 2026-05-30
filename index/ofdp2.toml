@@ -1,0 +1,6 @@
+name = "One Finger Death Punch 2"
+home = "https://discord.com/channels/731205301247803413/1494431750015680533"
+default_url = "https://github.com/Reiji-Kogarashi/OFDP2-Archipelago/releases/download/{{version}}/ofdp2.apworld"
+
+[versions]
+"0.1.2" = {}
