@@ -1,0 +1,7 @@
+name = "Status Lock"
+home = "https://discord.com/channels/731205301247803413/1431916126614585435"
+default_url = "https://github.com/guigui0246/StatusLock/releases/download/v{{version}}/status_lock.apworld"
+
+[versions]
+"0.3.0" = {}
+"0.3.1" = {}
