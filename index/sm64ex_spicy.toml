@@ -1,0 +1,6 @@
+name = "SM64: Spicy Mycena 64"
+home = "https://discord.com/channels/731205301247803413/1513072274167824435"
+default_url = "https://github.com/Alchav/Archipelago/releases/download/spicy-{{version}}/sm64ex_spicy.apworld"
+
+[versions]
+"0.0.8" = {}
