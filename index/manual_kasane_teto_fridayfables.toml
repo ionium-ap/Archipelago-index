@@ -1,0 +1,6 @@
+name = "Manual_Kasane_Teto_FridayFables"
+display_name = "Manual: Mate Engine"
+default_url = "https://github.com/FedoraFriday/MateEngine-Manual/releases/download/{{version}}/manual_kasane_teto.apworld"
+
+[versions]
+"1.0.0" = { url = "https://github.com/FedoraFriday/MateEngine-Manual/releases/download/1.0/manual_kasane_teto.apworld" }
