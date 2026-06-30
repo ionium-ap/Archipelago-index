@@ -1,0 +1,7 @@
+name = "Manual_LonelyWolfTreatTheCompleteSeries_Ellie53"
+display_name = "Manual: Lonely Wolf Treat: The Complete Series"
+home = "https://discord.com/channels/1097532591650910289/1511115598162297012"
+
+[versions]
+"1.1.0" = { url = "https://github.com/Ellie53real/ellies-manuals/releases/download/LWT-v1.1.0/manual_lonelywolftreatthecompleteseries_ellie53.apworld" }
+"1.0.1" = {url = "https://github.com/Ellie53real/ellies-manuals/releases/download/LWT-v1.0.1/manual_lonelywolftreatthecompleteseries_ellie53.apworld"}
