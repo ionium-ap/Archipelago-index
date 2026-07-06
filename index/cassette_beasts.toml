@@ -1,0 +1,5 @@
+name = "Cassette Beasts"
+home = "https://discord.com/channels/731205301247803413/1110831824546050101"
+
+[versions]
+"0.0.6" = { url = "https://github.com/sitskin/apCassetteBeasts/releases/download/v0.0.6/cassette_beasts.apworld" }
