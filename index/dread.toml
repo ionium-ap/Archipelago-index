@@ -1,0 +1,7 @@
+name = "Metroid Dread"
+home = "https://discord.com/channels/731205301247803413/1496686085185736826"
+default_url = "https://github.com/mdietz94/dread_ap/releases/download/v{{version}}/dread.apworld"
+
+[versions]
+"0.21.0" = {}
+"0.22.0" = {}
