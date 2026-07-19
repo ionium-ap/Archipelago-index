@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1506226861192118423"
 default_url = "https://github.com/Starwort/suikapelago/releases/download/{{version}}/suikapelago.apworld"
 
 [versions]
-"1.1.0" = {}
+"1.1.1" = {}
