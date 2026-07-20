@@ -1,0 +1,6 @@
+name = "Manual_DonkeyKongBananzaopenworld_Konijnde"
+display_name = "Manual: Donkey Kong Bananza"
+home = "https://github.com/Konijnde/DKBManualAP"
+
+[versions]
+"0.1.1" = {url = "https://github.com/Konijnde/DKBManualAP/releases/download/v0.1.1/manual_donkeykongbananzaopenworld_konijnde.apworld"}
