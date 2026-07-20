@@ -1,5 +1,6 @@
 name = "Spark the Electric Jester 3"
 home = "https://github.com/Kylogias/Spark3-Archipelago"
+default_url = "https://github.com/Kylogias/Spark3-Archipelago/releases/download/v{{version}}/spark3.apworld"
 
 [versions]
-"0.7.1-alpha" = { url = "https://github.com/Kylogias/Spark3-Archipelago/releases/download/v0.7.1-alpha/spark3.apworld" }
+"0.11.2-beta" = {}
