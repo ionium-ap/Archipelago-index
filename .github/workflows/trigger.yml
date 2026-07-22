@@ -145,7 +145,7 @@ jobs:
             const pipelineUrl = process.env.PIPELINE_URL;
             const base = [
               'diff', 'check', 'verify-index', 'verify-apworlds',
-              'apdiff', 'comment-diff', 'network-audit',
+              'apdiff', 'comment-diff', 'unit-tests', 'network-audit',
             ];
             const fuzzOnly = mode === 'fuzz' ? ['fuzz'] : [];
             const contexts = [...base, ...fuzzOnly].map(c => `gitlab/${c}`);

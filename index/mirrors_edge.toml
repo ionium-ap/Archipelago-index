@@ -1,0 +1,6 @@
+name = "Mirror's Edge"
+home = "https://discord.com/channels/731205301247803413/1495313218414055544"
+default_url = "https://github.com/SerpentAI/Archipelago/releases/download/mirrors-edge-v{{version}}/mirrors_edge.apworld"
+
+[versions]
+"1.1.0" = {}

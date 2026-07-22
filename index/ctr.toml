@@ -1,0 +1,6 @@
+name = "Crash Team Racing"
+home = "https://github.com/dowlle/ctr-native-ap"
+default_url = "https://github.com/dowlle/ctr-native-ap/releases/download/v{{version}}/ctr.apworld"
+
+[versions]
+"0.1.0" = {}
