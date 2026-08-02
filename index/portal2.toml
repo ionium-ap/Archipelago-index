@@ -1,5 +1,5 @@
 name = "Portal 2"
-home = "https://discord.com/channels/731205301247803413/1172548724921208852"
+home = "https://discord.com/channels/731205301247803413/1482824356035039446"
 default_url = "https://github.com/GlassToadstool/Archipelago/releases/download/{{version}}/portal2.apworld"
 
 [versions]
