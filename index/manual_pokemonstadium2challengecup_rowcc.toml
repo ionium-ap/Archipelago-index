@@ -2,4 +2,4 @@ name = "Manual_PokemonStadium2ChallengeCup_rowCC"
 display_name = "Manual: Pokemon Stadium 2 Challenge Cup"
 
 [versions]
-"0.0.2" = { url = "https://github.com/row-row-row/Archipelagos/releases/download/Archipelagos/manual_pokemonstadium2challengecup_rowcc.apworld" }
+"0.0.3" = { url = "https://github.com/row-row-row/Archipelagos/releases/download/ArchipelagosUpdate/manual_pokemonstadium2challengecup_rowcc.apworld" }
