@@ -1,4 +1,4 @@
-name = "Librarian: Tidy up the arcane library"
+name = "Librarian Tidy Up the Arcane Library"
 home = "https://discord.com/channels/731205301247803413/1501512989923086386"
 default_url = "https://github.com/Str8UpWHITE64/Librarian-AP/releases/download/{{version}}/librarian.apworld"
 
