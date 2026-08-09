@@ -1,8 +1,9 @@
 name = "Slime Rancher"
-home = "https://discord.com/channels/731205301247803413/1108426937409486909"
+home = "https://discord.com/channels/731205301247803413/1487860224227545329"
 default_url = "https://github.com/SWCreeperKing/Slimipelago/releases/download/v{{version}}/slime_rancher.apworld"
 
 [versions]
 "0.2.2" = {}
 "0.2.4" = {}
 "0.3.0" = {}
+"0.3.2" = {}
