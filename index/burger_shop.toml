@@ -1,0 +1,6 @@
+name = "Burger Shop"
+home = "https://discord.com/channels/731205301247803413/1470967699009179719"
+default_url = "https://github.com/zsiegel701/Burger-Shop-Archipelago/releases/download/v{{version}}/burger_shop.apworld"
+
+[versions]
+"0.3.2" = {}
