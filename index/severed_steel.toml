@@ -1,0 +1,6 @@
+name = "Severed Steel"
+home = "https://discord.com/channels/731205301247803413/1529633879814570004"
+default_url = "https://github.com/SerpentAI/Archipelago/releases/tag/severed-steel-v{{version}}/severed_steel.apworld"
+
+[versions]
+"1.0.0" = {}
