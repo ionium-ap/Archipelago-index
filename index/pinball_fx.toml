@@ -1,0 +1,6 @@
+name = "Pinball FX"
+home = "https://discord.com/channels/731205301247803413/1532093782982660106"
+default_url = "https://github.com/SerpentAI/Archipelago/releases/tag/pinballfx-v{{version}}/pinball_fx.apworld"
+
+[versions]
+"1.0.0" = {}
