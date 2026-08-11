@@ -1,6 +1,6 @@
 name = "Riven"
 home = "https://discord.com/channels/731205301247803413/1526660571070599331"
-default_url = "https://github.com/SerpentAI/Archipelago/releases/tag/riven-v{{version}}/riven.apworld"
+default_url = "https://github.com/SerpentAI/Archipelago/releases/download/riven-v{{version}}/riven.apworld"
 
 [versions]
 "1.0.0" = {}
