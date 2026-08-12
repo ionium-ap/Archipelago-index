@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1438309391999701094"
 default_url = "https://github.com/cxve/q-ap-world/releases/download/v{{version}}/q_up.apworld"
 
 [versions]
-"2.0.1" = {}
+"2.0.2" = {}
