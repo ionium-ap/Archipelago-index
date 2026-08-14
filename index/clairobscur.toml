@@ -2,5 +2,5 @@ name = "Clair Obscur: Expedition 33"
 display_name = "Clair Obscur: Expedition 33"
 default_url = "https://github.com/Demorck/ClairObscur_APWorld/releases/download/v{{versions}}/clair_obscur.apworld"
 
-[version]
+[versions]
 "0.2.1" ={}
