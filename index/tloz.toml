@@ -1,3 +1,4 @@
 name = "The Legend of Zelda"
 home = "https://archipelago.gg"
 supported = true
+disabled = true # Needs a ROM not supplied by the lobby
