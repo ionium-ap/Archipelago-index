@@ -3,4 +3,4 @@ display_name = "Manual: Umamusume: Pretty Derby (Grand Live)"
 home = "https://github.com/witenson-cmyk/Umamusume-Pretty-Derby-Manual-AP-World/blob/main/README.md"
 
 [versions]
-"1.0.0" = {}
+"1.0.0" = { url = "https://github.com/witenson-cmyk/Umamusume-Pretty-Derby-Manual-AP-World/releases/download/release/manual_umamusumeprettyderbygrandlive_delender1100.apworld"}
