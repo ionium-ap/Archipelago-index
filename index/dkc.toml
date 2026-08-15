@@ -4,4 +4,4 @@ default_url = "https://github.com/TheLX5/Archipelago/releases/download/dkc-v{{ve
 
 [versions]
 "1.2.2" = {}
-"1.2.3+hotfix1" = {}
+"1.2.3+hotfix1" = { url = "https://github.com/TheLX5/Archipelago/releases/download/dkc-v1.2.3/dkc.apworld" }
