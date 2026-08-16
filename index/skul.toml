@@ -1,0 +1,6 @@
+name = "Skul: The Hero Slayer"
+home = "https://discord.com/channels/731205301247803413/1346144590536904734"
+default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Skul/releases/download/{{version}}/skul.apworld"
+
+[versions]
+"1.0.2" = {}
