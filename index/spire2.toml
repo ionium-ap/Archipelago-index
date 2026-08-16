@@ -4,3 +4,4 @@ default_url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases
 [versions]
 "0.4.1-alpha" = { url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/download/v0.4.1-alpha/spire2.apworld"}
 "0.4.4-alpha" = {}
+"0.5.3-alpha" = { url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/download/0.5.3-alpha/spire2.apworld" }
