@@ -1,0 +1,6 @@
+name = "Funi Raccoon Game"
+home = "https://discord.com/channels/731205301247803413/1482650071987130379"
+default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/download/{{version}}/funi_raccoon.apworld"
+
+[versions]
+"1.6.3" = {}
