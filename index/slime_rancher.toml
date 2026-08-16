@@ -6,4 +6,4 @@ default_url = "https://github.com/SWCreeperKing/Slimipelago/releases/download/v{
 "0.2.2" = {}
 "0.2.4" = {}
 "0.3.0" = {}
-"0.3.2.1" = {}
+"0.3.2" = { url = "https://github.com/SWCreeperKing/Slimipelago/releases/download/v0.3.2.1/slime_rancher.apworld" }
