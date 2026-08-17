@@ -17,4 +17,4 @@ default_url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/downloa
 "2.0.4" = {}
 "2.1.2" = {}
 "2.1.3" = {}
-"2.1.3+hotfix1" = { url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.1.3%2Bhotfix1" }
+"2.1.3+hotfix1" = { url = "https://github.com/theemeraldsword85/DELTARUNEAP/releases/tag/v2.1.3%2Bhotfix1/deltarune.apworld" }
