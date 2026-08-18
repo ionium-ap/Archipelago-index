@@ -5,3 +5,5 @@ default_url = "https://github.com/ArchipelagoDoom/APDoom/releases/download/v{{ve
 [versions]
 "2.0.0-beta2" = {}
 "2.0.0-beta3" = {}
+"2.0.0-beta4" = {}
+"2.0.20260716" = { url = "https://github.com/ArchipelagoDoom/worlds/raw/2b93638/Official/doom_ii_beta.apworld" }

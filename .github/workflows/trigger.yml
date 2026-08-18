@@ -50,13 +50,43 @@ jobs:
           github-token: ${{ secrets.BOT_PAT }}
           script: |
             const body = (context.payload.comment.body || '');
-            // Match /ci run or /ci fuzz at the start of any line. We match
-            // \b after the subcommand so future args (`/ci fuzz only=alttp`)
-            // can extend without regex churn.
-            const m = body.match(/^\s*\/ci\s+(run|fuzz)\b/m);
+            // Match /ci run or /ci fuzz at the start of any line, with up to
+            // two optional run counts: /ci fuzz [<full> [<check>]].
+            //   <full>  overrides the 5000-run variants (default,
+            //           no-restrictive-starts) via FUZZ_RUNS_FULL
+            //   <check> overrides the 500-run check-* hook variants via
+            //           FUZZ_RUNS_CHECK
+            // Both groups are optional and neither is anchored to end-of-line,
+            // so future args (`/ci fuzz only=alttp`) still extend without
+            // regex churn. run_fuzz.py owns the defaults; omitted means
+            // "leave it alone", which we express as an empty CI variable.
+            const m = body.match(/^\s*\/ci\s+(run|fuzz)\b(?:[ \t]+(\d+))?(?:[ \t]+(\d+))?/m);
             if (!m) {
               core.setOutput('skip', 'true');
               return;
+            }
+
+            const runsFull = m[2] || '';
+            const runsCheck = m[3] || '';
+
+            // \d+ already excludes negatives and non-numerics; 0 runs would
+            // just be a confusing no-op, so reject it rather than dispatch a
+            // pipeline that fuzzes nothing.
+            const bad = [runsFull, runsCheck].filter(v => v !== '' && parseInt(v, 10) < 1);
+            if (bad.length) {
+              core.warning(`Ignoring /ci with a run count below 1: ${bad.join(', ')}`);
+              await github.rest.reactions.createForIssueComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: context.payload.comment.id,
+                content: 'confused',
+              });
+              core.setOutput('skip', 'true');
+              return;
+            }
+
+            if (m[1] !== 'fuzz' && (runsFull || runsCheck)) {
+              core.warning('Run counts only apply to /ci fuzz; ignoring them for /ci run.');
             }
 
             const assoc = context.payload.comment.author_association;
@@ -93,6 +123,9 @@ jobs:
             core.setOutput('pr_number', String(context.payload.issue.number));
             core.setOutput('sha', pr.data.head.sha);
             core.setOutput('comment_id', String(context.payload.comment.id));
+            // Empty unless /ci fuzz supplied them, and only for fuzz.
+            core.setOutput('runs_full', m[1] === 'fuzz' ? runsFull : '');
+            core.setOutput('runs_check', m[1] === 'fuzz' ? runsCheck : '');
 
       - name: Trigger GitLab pipeline
         if: steps.parse.outputs.skip == 'false'
@@ -101,14 +134,22 @@ jobs:
           MODE: ${{ steps.parse.outputs.mode }}
           PR_NUMBER: ${{ steps.parse.outputs.pr_number }}
           SHA: ${{ steps.parse.outputs.sha }}
+          RUNS_FULL: ${{ steps.parse.outputs.runs_full }}
+          RUNS_CHECK: ${{ steps.parse.outputs.runs_check }}
         run: |
           set -e
+          echo "mode=$MODE runs_full=${RUNS_FULL:-<default>} runs_check=${RUNS_CHECK:-<default>}"
+          # FUZZ_RUNS_* are always sent, empty when not specified. The fuzz job tests them
+          # with ${x:+...}, which treats empty exactly like unset, so an empty value leaves
+          # run_fuzz.py's own defaults in place.
           response=$(curl -fsS -X POST \
             -F "token=$TOKEN" \
             -F "ref=main" \
             -F "variables[MODE]=$MODE" \
             -F "variables[GITHUB_PR]=$PR_NUMBER" \
             -F "variables[GITHUB_SHA]=$SHA" \
+            -F "variables[FUZZ_RUNS_FULL]=$RUNS_FULL" \
+            -F "variables[FUZZ_RUNS_CHECK]=$RUNS_CHECK" \
             "$GITLAB_PIPELINE_TRIGGER_URL")
           echo "$response" | jq .
           web_url=$(echo "$response" | jq -r '.web_url // empty')
@@ -140,14 +181,28 @@ jobs:
             // index-validate.yml that have `<<: *report_to_github` and a
             // `$MODE == "run" || $MODE == "fuzz"` rule (or `"fuzz"` alone
             // for fuzz-only jobs).
+            //
+            // Only pre-post names that are stable. The fuzz stage is a
+            // parallel:matrix over run_fuzz.py's variants, so its jobs are
+            // `gitlab/fuzz-default`, `gitlab/fuzz-check-determinism` and so
+            // on -- enumerating them here would pin the variant table in a
+            // third place and leave a permanently-pending row behind the
+            // day one gets renamed. Those rows appear on their own as each
+            // variant finishes; `gitlab/fuzz-comment` stays pending for the
+            // whole run and is the "fuzz is still going" indicator.
             const mode = process.env.MODE;
             const sha = process.env.SHA;
             const pipelineUrl = process.env.PIPELINE_URL;
+            // verify-index-main reports on main's own lockfile health and
+            // ignores the PR entirely; verify-index reports only what the PR
+            // changed. Two rows so pre-existing drift never reads as the
+            // contributor's fault.
             const base = [
-              'diff', 'check', 'verify-index', 'verify-apworlds',
-              'apdiff', 'comment-diff', 'network-audit',
+              'diff', 'check', 'verify-index-main', 'verify-index',
+              'verify-apworlds', 'apdiff', 'comment-diff', 'unit-tests',
+              'network-audit',
             ];
-            const fuzzOnly = mode === 'fuzz' ? ['fuzz'] : [];
+            const fuzzOnly = mode === 'fuzz' ? ['fuzz-comment'] : [];
             const contexts = [...base, ...fuzzOnly].map(c => `gitlab/${c}`);
 
             for (const ctx of contexts) {

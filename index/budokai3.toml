@@ -1,0 +1,6 @@
+name = "Dragon Ball Z Budokai 3"
+home = "https://discord.com/channels/731205301247803413/1217306342315003964"
+default_url = "https://github.com/z3xox/Budokai3AP/releases/download/v{{version}}/budokai3.apworld"
+
+[versions]
+"0.2.3" = {}

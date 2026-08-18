@@ -1,12 +1,13 @@
 name = "Portal 2"
-home = "https://discord.com/channels/731205301247803413/1172548724921208852"
-default_url = "https://github.com/GlassToadstool/Archipelago/releases/download/{{version}}/portal2.apworld"
+home = "https://discord.com/channels/731205301247803413/1482824356035039446"
+default_url = "https://github.com/GlassToadstool/Portal2ArchipelagoMod/releases/download/{{version}}/portal2.apworld"
 
 [versions]
-"0.3.2" = {}
-"0.3.3" = {}
+"0.3.2" = { url = "https://github.com/GlassToadstool/Archipelago/releases/download/0.3.2/portal2.apworld" }
+"0.3.3" = { url = "https://github.com/GlassToadstool/Archipelago/releases/download/0.3.3/portal2.apworld" }
 "0.4.0" = { url = "https://github.com/GlassToadstool/Archipelago/releases/download/0.4/portal2.apworld" }
-"0.5.6" = {}
-"0.6.0" = {}
-"0.7.0" = {}
-"0.7.1" = {}
+"0.5.6" = { url = "https://github.com/GlassToadstool/Archipelago/releases/download/0.5.6/portal2.apworld" }
+"0.6.0" = { url = "https://github.com/GlassToadstool/Archipelago/releases/download/0.6.0/portal2.apworld" }
+"0.7.0" = { url = "https://github.com/GlassToadstool/Archipelago/releases/download/0.7.0/portal2.apworld" }
+"0.7.1" = { url = "https://github.com/GlassToadstool/Archipelago/releases/download/0.7.1/portal2.apworld" }
+"0.8.0" = {}

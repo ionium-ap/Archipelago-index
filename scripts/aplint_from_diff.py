@@ -19,8 +19,13 @@ with open(changes_file) as fd:
 
 for apworld_name, world_changes in changes["worlds"].items():
     for version in world_changes["added_versions"]:
+        # apwm's Checksum enum is externally tagged: the unit variant
+        # `Supported` serializes as the bare string "supported", while
+        # `Hash(String)` becomes {"hash": "..."}. Supported worlds ship in
+        # the AP release rather than being downloaded, so there are no bytes
+        # under apworlds/ to lint.
         checksum = world_changes["checksums"].get(version)
-        if isinstance(checksum, dict) and "supported" in checksum:
+        if checksum == "supported":
             continue
 
         apworld_file = os.path.join(apworlds_dir, f"{apworld_name}-{version}.apworld")

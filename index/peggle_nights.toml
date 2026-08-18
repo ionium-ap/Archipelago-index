@@ -4,3 +4,4 @@ default_url = "https://github.com/SerpentAI/Archipelago/releases/download/peggle
 
 [versions]
 "1.1.0" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/peggle-nights-v1.1.0/peggle_nights.apworld" }
+"1.2.0" = {}
