@@ -3,6 +3,7 @@ home = "https://discord.com/channels/731205301247803413/1454317500329099317"
 default_url = "https://github.com/AllPoland/unbeatAP/releases/download/v{{version}}/unbeatable_arcade.apworld"
 
 [versions]
-"0.1.0-alpha" = { }
-"0.2.1-alpha" = { }
+"0.1.0-alpha" = {}
+"0.2.1-alpha" = {}
 "0.3.0-alpha" = {}
+"0.7.2-alpha" = {}
