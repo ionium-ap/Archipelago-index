@@ -1,6 +1,8 @@
 name = "Clair Obscur Expedition 33"
 display_name = "Clair Obscur: Expedition 33"
+home = "https://discord.com/channels/1085716850370957462/1492683567627768089"
 default_url = "https://github.com/Demorck/ClairObscur_APWorld/releases/download/v{{version}}/clair_obscur.apworld"
+tags = ["ad"]
 
 [versions]
 "0.2.1" ={}
