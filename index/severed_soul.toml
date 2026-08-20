@@ -1,5 +1,6 @@
 name = "Severed Soul"
 home = "https://discord.com/channels/731205301247803413/1400131509569978478"
+disabled = true # Client spams the server with LocationChecks messages, 210000 over 3 hours (~19/s average).
 
 [versions]
 "2.6.0" = { url = "https://github.com/Grenhunterr/Archipelago/releases/download/v2.6/severed_soul.apworld" }
