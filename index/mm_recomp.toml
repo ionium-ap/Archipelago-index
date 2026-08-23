@@ -1,0 +1,5 @@
+name = "MajorasMaskRecompiled"
+default_url = "https://github.com/RecompRando/MMRecompRando/releases/tag/v0.9.5a"
+
+[versions]
+"0.9.5a" = {}
