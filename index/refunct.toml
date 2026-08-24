@@ -19,4 +19,4 @@ default_url = "https://github.com/spinerak/refunct-tas-archipelago/releases/down
 "1.1.1" = {}
 "1.2.2" = {}
 "1.3.2" = {}
-"1.5.0+a" = { url = "https://github.com/spinerak/refunct-tas-archipelago/releases/download/v1.5.0a/refunct.apworld" }
+"1.5.1" = {}
