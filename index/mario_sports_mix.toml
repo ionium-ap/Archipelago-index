@@ -1,4 +1,4 @@
-name = "2048"
+name = "Mario Sports Mix"
 home = "https://discord.com/channels/731205301247803413/1485699253450833942"
 default_url = "https://github.com/ElectroStarz/ArchipelagoMSM/releases/download/v{{version}}/mario_sports_mix.apworld"
 
