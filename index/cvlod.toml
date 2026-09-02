@@ -3,3 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1178601625078738985"
 
 [versions]
 "1.1.0" = { url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download/cvlod_v1.1/cvlod.apworld" }
+"2.0.0" = { url = "https://github.com/LiquidCat64/LiquidCatipelago/releases/download/cvlod_v2.0.0/cvlod.apworld" }
