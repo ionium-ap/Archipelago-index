@@ -1,0 +1,7 @@
+name = "Hades2Rogue"
+display_name = "Hades 2 Rogue"
+home = "https://github.com/BrittisH39/Hades2Archipelago"
+default_url = "https://github.com/BrittisH39/Hades2Archipelago/releases/download/v{{version}}/Hades2Rogue.apworld"
+
+[versions]
+"0.9.3" = {}
