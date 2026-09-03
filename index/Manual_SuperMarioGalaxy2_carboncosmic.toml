@@ -1,0 +1,7 @@
+name = "Manual_SuperMarioGalaxy2_carboncosmic"
+display_name = "Manual: Super Mario Galaxy 2"
+home = "https://discord.com/channels/1097532591650910289/1181005577703403590"
+default_url = https://github.com/carbon-cosmic/Manual-Super-Mario-Galaxy-2/releases/download/v{{version}}/manual_supermariogalaxy2_carboncosmic.apworld
+
+[versions]
+0.0.3 = {}
