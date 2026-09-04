@@ -1,6 +1,8 @@
 name = "FNaFW"
 home = "https://discord.com/channels/731205301247803413/1104088448127729704"
+default_url = "https://github.com/EviVirus/Archipelago-FNaFW/releases/download/FNaFW-v{{version}}/fnafw.apworld"
 
 [versions]
 # https://discord.com/channels/731205301247803413/1104088448127729704/1458251596772282522
 "0.0.4" = { local = "../apworlds/fnafw-0.0.4.apworld" }
+"1.2.1" = {}
