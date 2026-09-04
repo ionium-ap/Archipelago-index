@@ -1,0 +1,6 @@
+name = "CloverPit"
+home = "https://discord.com/channels/731205301247803413/1423372513957908662"
+default_url = "https://github.com/Syntheal/CloverPit.Archipelago/releases/download/v{{version}}/cloverpit.apworld"
+
+[versions]
+"1.2.2" = {}
