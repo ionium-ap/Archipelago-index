@@ -1,0 +1,6 @@
+name = "Ultimate Custom Night"
+home = "https://discord.com/channels/731205301247803413/1106009391427227750"
+default_url = "https://github.com/fewffwa/UCN-AP/releases/download/{{version}}/ucn.apworld"
+
+[versions]
+"0.1.1" = {}
