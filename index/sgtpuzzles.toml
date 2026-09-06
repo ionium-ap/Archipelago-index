@@ -1,9 +1,10 @@
 name = "Simon Tatham's Portable Puzzle Collection"
 home = "https://discord.com/channels/731205301247803413/1278733078516207719"
-default_url = "https://github.com/ishanpm/ap-sgtpuzzles-web/releases/download/v{{version}}/sgtpuzzles.apworld"
+default_url = "https://github.com/ishanpm/Archipelago-sgtpuzzles/releases/download/v{{version}}/sgtpuzzles.apworld"
 
 [versions]
-"0.1.8-prealpha" = {}
-"0.1.10-prealpha" = {}
-"0.1.11-prealpha" = {}
-"0.1.15-prealpha" = {}
+"0.1.8-prealpha" = { url = "https://github.com/ishanpm/ap-sgtpuzzles-web/releases/download/v0.1.8-prealpha/sgtpuzzles.apworld" }
+"0.1.10-prealpha" = { url = "https://github.com/ishanpm/ap-sgtpuzzles-web/releases/download/v0.1.10-prealpha/sgtpuzzles.apworld" }
+"0.1.11-prealpha" = { url = "https://github.com/ishanpm/ap-sgtpuzzles-web/releases/download/v0.1.11-prealpha/sgtpuzzles.apworld" }
+"0.1.15-prealpha" = { url = "https://github.com/ishanpm/ap-sgtpuzzles-web/releases/download/v0.1.15-prealpha/sgtpuzzles.apworld" }
+"0.1.19-prealpha" = {}
