@@ -1,0 +1,5 @@
+name = "Manual_SuperMarioGalaxy_rowSMG"
+display_name = "Manual: Super Mario Galaxy"
+
+[versions]
+"0.0.1" = { url = "https://github.com/row-row-row/Archipelagos/releases/download/ArchipelagosSMG/manual_supermariogalaxy_rowsmg.apworld" }

@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1532093782982660106"
 default_url = "https://github.com/SerpentAI/Archipelago/releases/download/pinballfx-v{{version}}/pinball_fx.apworld"
 
 [versions]
-"1.0.0" = {}
+"1.0.0+hotfix1" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/pinballfx-v1.0.0/pinball_fx.apworld" }

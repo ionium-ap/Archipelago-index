@@ -11,3 +11,4 @@ default_url = "https://github.com/jamesbrq/ArchipelagoTTYD/releases/download/v{{
 "0.9.1" = {}
 "0.10.2" = {}
 "0.12.1" = {}
+"0.13.0+a" = { url = "https://github.com/jamesbrq/ArchipelagoTTYD/releases/download/v0.13.0a/ttyd.apworld" }

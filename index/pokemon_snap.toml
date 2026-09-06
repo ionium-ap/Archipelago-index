@@ -1,0 +1,6 @@
+name = "Pokemon Snap"
+home = "https://discord.com/channels/731205301247803413/1528972845479100617"
+default_url = "https://github.com/nielrenned/PokemonSnap_Archipelago/releases/download/v{{version}}/pokemon_snap.apworld"
+
+[versions]
+"0.6.1" = {}
