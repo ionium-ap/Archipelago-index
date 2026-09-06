@@ -1,0 +1,6 @@
+name = "Mario Kart DS"
+home = "https://github.com/SsL2727/mkds-archipelago"
+default_url = "https://github.com/SsL2727/mkds-archipelago/releases/download/{{version}}/mkds.apworld"
+
+[versions]
+"0.27.2" = {}
