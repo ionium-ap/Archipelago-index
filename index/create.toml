@@ -1,5 +1,5 @@
-name = "CREATE"
+name = "Create"
 home = "https://github.com/mariokirby1703/Lumas-Archipelago"
 
 [versions]
-"0.1.1" = { url = "https://github.com/mariokirby1703/Lumas-Archipelago/releases/download/create_v0.1.1/create.apworld" }
+"0.1.2" = { url = "https://github.com/mariokirby1703/Lumas-Archipelago/releases/download/create_v0.1.2/create.apworld" }
