@@ -4,6 +4,7 @@ default_url = "https://github.com/dowlle/ctr-native-ap/releases/download/v{{vers
 setup_guide = "https://github.com/dowlle/ctr-archipelago-apworld/blob/main/worlds/ctr/docs/setup_en.md"
 
 [versions]
+"0.2.0" = {}
 "0.1.0" = {}
 "0.1.1" = {}
 "0.1.2" = {}
