@@ -1,0 +1,5 @@
+name = "SlotLock"
+home = "https://discord.com/channels/731205301247803413/1191670867403476992"
+default_url = "https://github.com/gjgfuj/SlotLock/releases/download/slotlockv{{version}}/slotlock.apworld"
+[versions]
+"0.10.4" = {}
