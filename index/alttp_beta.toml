@@ -1,0 +1,5 @@
+name = "A Link to the Past Beta"
+home = "https://discord.com/channels/731205301247803413/1528555660495556608"
+
+[versions]
+"0.0.4" = { url = "https://github.com/Alchav/Archipelago/releases/download/alttp2026v4/alttp_beta.apworld" }
