@@ -1,0 +1,6 @@
+name = "Manual_Mario Kart World_MaudeTheMawile & Belodie"
+display_name = "Manual: Mario Kart World (Belodie)"
+home = "https://discord.com/channels/1097532591650910289/1525505922447835308"
+
+[versions]
+"0.2.7" = {url = "https://github.com/A-R-Milne/APManual_MKWorld_Belodie/releases/download/v0.2.7/manual_mkworld_maudethemawile_belodie.apworld"}
