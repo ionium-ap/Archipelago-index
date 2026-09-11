@@ -1,0 +1,9 @@
+name = "Hollow Knight: Silksong"
+home = "https://discord.com/channels/731205301247803413/1540758118361727056"
+default_url = "https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/download/v{{version}}/silksong.apworld"
+
+[versions]
+"0.4.52" = { url = "https://github.com/Batatvideogames/silksong-archipelago-randomizer/releases/download/v0.4.5-Hotfix2/silksong.apworld" }
+"0.4.5" = { }
+"0.4.4" = { }
+"0.4.3" = { }
