@@ -43,7 +43,7 @@ This makes it easier to update and can be used to automatically fetch newer vers
 - The apworld must not contain big unknown executable binary blobs or depend on any.
 - The apworld must not contain obvious flaws that will make life difficult for anyone trying to generate large multiworlds. That includes direct usage of the random module, obvious logic flaws, forced interactivity during generation, or test failures that are deemed problematic.
 - The apworld must not make any use of remote resources during generation. That includes checking the internet for the latest release or similar checks.
-- The apworld must not require a ROM to generate. Apworlds already present in the index are exempt from this, but I will not accept any new ones.
+- The apworld must not require a ROM to generate.
 - The generation failure rate calculated using Eijebong's [fuzzer](https://github.com/ionium-ap/Archipelago-fuzzer) must be below 1% (not counting `OptionError`s).
   - To help removing failures that would be considered restrictive starts, those rates will be calculated with a second [world](https://github.com/ionium-ap/empty-apworld) present that has 100 free locations. Any failures that remain may indicate a logic issue.
   - To help check for other logical issues that could prevent multiworlds from generating, we will also be checking against the following Fuzzer tests. These must fall within the 1% rule:
