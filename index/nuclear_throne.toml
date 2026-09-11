@@ -1,0 +1,6 @@
+name = "Nuclear Throne"
+home = "https://discord.com/channels/731205301247803413/1121193647958937713"
+default_url = "https://github.com/GraphiteGraphic/NuclearThroneArchipelago/releases/download/nt_v{{version}}/nuclear_throne.apworld"
+
+[versions]
+"1.4.3" = {}
