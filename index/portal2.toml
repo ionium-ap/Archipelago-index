@@ -11,3 +11,4 @@ default_url = "https://github.com/GlassToadstool/Portal2ArchipelagoMod/releases/
 "0.7.0" = { url = "https://github.com/GlassToadstool/Archipelago/releases/download/0.7.0/portal2.apworld" }
 "0.7.1" = { url = "https://github.com/GlassToadstool/Archipelago/releases/download/0.7.1/portal2.apworld" }
 "0.8.0" = {}
+"0.8.1" = {}
