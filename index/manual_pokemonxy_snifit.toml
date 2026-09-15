@@ -1,0 +1,6 @@
+name = "Manual_PokemonXY_Snifit"
+display_name = "Manual: Pokemon X/Y"
+home = "https://discord.com/channels/1097532591650910289/1413246346256847041"
+
+[versions]
+"1.2.0" = { url = "https://github.com/Snifit57/PokemonXYAPManual/releases/download/v1.2/manual_pokemonxy_snifit.apworld" }
