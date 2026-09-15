@@ -1,0 +1,7 @@
+display_name = "Escape the Backrooms"
+name = "Manual_Escape the Backrooms_Ingrid"
+home = "https://discord.com/channels/731205301247803413/1544740811751825458"
+default_url = "https://github.com/ingridjackey/Escape-The-Backrooms-Manual-Archipelago/releases/download/v{{version}}/manual_escape_the_backrooms_ingrid.apworld"
+
+[versions]
+"1.0.0" =  {}
