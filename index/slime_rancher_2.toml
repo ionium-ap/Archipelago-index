@@ -1,0 +1,6 @@
+name = "Slime Rancher 2"
+home = "https://discord.com/channels/731205301247803413/1477825880712806430"
+default_url = "https://github.com/Rhelys/SlimeRancher2-AP/releases/download/v{{version}}/slime_rancher_2.apworld"
+
+[versions]
+"0.14.2" = {}
