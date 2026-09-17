@@ -8,3 +8,4 @@ default_url = "https://github.com/ishanpm/Archipelago-sgtpuzzles/releases/downlo
 "0.1.11-prealpha" = { url = "https://github.com/ishanpm/ap-sgtpuzzles-web/releases/download/v0.1.11-prealpha/sgtpuzzles.apworld" }
 "0.1.15-prealpha" = { url = "https://github.com/ishanpm/ap-sgtpuzzles-web/releases/download/v0.1.15-prealpha/sgtpuzzles.apworld" }
 "0.1.19-prealpha" = {}
+"0.1.20-prealpha" = {}
