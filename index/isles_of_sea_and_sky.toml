@@ -1,5 +1,7 @@
 name = "Isles Of Sea And Sky"
 home = "https://discord.com/channels/731205301247803413/1253182614441951282"
+default_url = "https://github.com/cuberyl-catastrophe/Archipelago/releases/download/iosas-ap-v{{version}}/isles_of_sea_and_sky.apworld"
 
 [versions]
 "0.0.14+hotfix-2" = { url = "https://github.com/Kim-Delicious/Archipelago_IslesOfSeaAndSky/releases/download/v0_0_14/isles_of_sea_and_sky.apworld" }
+"2.1.1" = {}
