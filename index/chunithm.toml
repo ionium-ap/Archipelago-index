@@ -1,0 +1,5 @@
+name = "CHUNITHM"
+home = "https://discord.com/channels/1345801058609270794/1499817932564467944"
+
+[versions]
+"1.0.0" = { url = "https://github.com/JaioCG/ArchipelagoRhythmGameManualSite/releases/download/2026.08.30/chunithm.apworld" }
