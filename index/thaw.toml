@@ -1,0 +1,6 @@
+name = "thaw"
+display_name = "Tony Hawk's American Wasteland"
+home = "https://discord.com/channels/731205301247803413/1520293354393305131"
+
+[versions]
+"0.0.3" = { url = "https://github.com/TheLivingShadow97/THAWAP/releases/download/Downtown%2FDeathlink/thaw.apworld"}
