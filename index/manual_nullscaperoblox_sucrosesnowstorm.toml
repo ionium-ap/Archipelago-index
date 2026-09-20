@@ -1,7 +1,12 @@
 name = "Manual_NullscapeROBLOX_sucrosesnowstorm"
 display_name = "Manual: Nullscape (ROBLOX)"
 home = "https://discord.com/channels/1097532591650910289/1478883336146518118"
+default_url = "https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm/releases/download/v{{version}}/manual_nullscaperoblox_sucrosesnowstorm.apworld"
 
 [versions]
-"0.0.1" = { local = "../apworlds/manual_nullscaperoblox_sucrosesnowstorm-0.0.1.apworld" }
-"0.0.2" = { local = "../apworlds/manual_nullscaperoblox_sucrosesnowstorm-0.0.2.apworld" }
+"0.0.1" = { url = "https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm/releases/download/loveandvoid-v0.0.1/manual_nullscaperoblox_sucrosesnowstorm-0.0.1.apworld" }
+"0.0.2" = { url = "https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm/releases/download/loveandvoid-v0.0.1/manual_nullscaperoblox_sucrosesnowstorm-0.0.1.apworld" }
+"1.0.0" = {}
+"1.0.1" = {}
+"1.1.0" = {}
+"1.1.1" = {}
