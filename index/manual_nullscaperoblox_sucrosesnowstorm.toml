@@ -6,7 +6,4 @@ default_url = "https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucros
 [versions]
 "0.0.1" = { url = "https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm/releases/download/loveandvoid-v0.0.1/manual_nullscaperoblox_sucrosesnowstorm-0.0.1.apworld" }
 "0.0.2" = { url = "https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm/releases/download/loveandvoid-v0.0.2/manual_nullscaperoblox_sucrosesnowstorm-0.0.1.apworld" }
-"1.0.0" = {}
-"1.0.1" = {}
-"1.1.0" = {}
 "1.1.1" = {}
