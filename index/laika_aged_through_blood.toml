@@ -1,0 +1,6 @@
+name = "Laika: Aged Through Blood"
+home = "https://discord.com/channels/731205301247803413/1491947867345129522"
+default_url = "https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/releases/download/{{version}}/laika_aged_through_blood.apworld"
+
+[versions]
+"0.1.4" = {}
