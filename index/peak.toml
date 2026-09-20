@@ -1,0 +1,6 @@
+name = "PEAK"
+home = "https://discord.com/channels/731205301247803413/1389318450605981737"
+default_url = "https://github.com/Mickemoose/peak-archipelago/releases/download/{{version}}/peak.apworld"
+
+[versions]
+"0.6.2" = {}

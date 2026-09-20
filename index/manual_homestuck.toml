@@ -1,0 +1,8 @@
+name = "Manual_Homestuck_Cymbalic"
+display_name = "Manual: Homestuck"
+home = "https://discord.com/channels/1097532591650910289/1431206185381396551"
+default_url = "https://github.com/Cymbalic/manual_homestuck/releases/download/v{{version}}/manual_homestuck.apworld"
+
+[versions]
+
+"0.1.1" = {}

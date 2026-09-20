@@ -1,0 +1,5 @@
+name = "Half-Life"
+home = "https://discord.com/channels/731205301247803413/1543368090476216470"
+
+[versions]
+"0.2.1" = { url = "https://github.com/barretg/hl1-anniversary-ap/releases/download/v0.2.1/half_life.apworld" }
