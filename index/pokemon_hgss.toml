@@ -4,3 +4,4 @@ default_url = "https://github.com/ljtpetersen/hgss_archipelago/releases/download
 
 [versions]
 "0.0.6" = {}
+"0.0.7" = {}
