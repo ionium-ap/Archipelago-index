@@ -1,0 +1,6 @@
+name = "Chibi Robo"
+home = "https://discord.com/channels/731205301247803413/1221244183247847434"
+default_url = "https://github.com/EverydaySimpleDev/Archipelago/releases/download/{{version}}/chibi_robo.apworld"
+
+[versions]
+"1.2.6" = {}
