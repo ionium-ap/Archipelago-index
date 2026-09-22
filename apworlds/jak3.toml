@@ -1,0 +1,6 @@
+name = "Jak 3"
+home = "https://discord.com/channels/731205301247803413/1482638799530889217"
+default_url = "https://github.com/Blake645/Archipelago/releases/download/{{version}}/jak3.apworld"
+
+[versions]
+"1.4.2" = {}
