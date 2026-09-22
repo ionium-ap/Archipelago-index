@@ -1,0 +1,6 @@
+name = "Blockupelago"
+home = "https://discord.com/channels/731205301247803413/1461589714661543958"
+default_url = "https://github.com/StefanDucharme/blockupelago/releases/download/v{{version}}/blockupelago.apworld
+
+[versions]
+"2.2" = {}
