@@ -1,4 +1,4 @@
-name = "WarioWare, Inc. - Mega Microgames$!"
+name = "WarioWare, Inc. - Mega Microgame$!"
 home = "https://discord.com/channels/731205301247803413/1537579474793668668"
 default_url = "https://github.com/TheLX5/Archipelago/releases/download/wariowareinc-v{{version}}/wario_ware_inc.apworld"
 
