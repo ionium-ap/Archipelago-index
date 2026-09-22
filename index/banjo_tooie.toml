@@ -1,8 +1,7 @@
 name = "Banjo-Tooie"
 home = "https://discord.com/channels/731205301247803413/1135352499172286505"
 default_url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V{{version}}/banjo_tooie.apworld"
-# Fuzzes very badly. Triggers item/location count mismatch. Triggers item/loc backref mismatch. Triggers indirect conditions.
 disabled = true
 
 [versions]
-"4.11.4" = {}
+"4.13.1" = {}
