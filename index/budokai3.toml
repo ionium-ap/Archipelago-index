@@ -4,3 +4,4 @@ default_url = "https://github.com/z3xox/Budokai3AP/releases/download/v{{version}
 
 [versions]
 "0.2.3" = {}
+"0.2.4" = {}
