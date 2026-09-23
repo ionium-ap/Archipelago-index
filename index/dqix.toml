@@ -1,6 +1,6 @@
 name = "Dragon Quest IX"
 home = "https://discord.com/channels/731205301247803413/1427594624389742716"
-default_url = "https://github.com/DQIX/ArchipelagoDQIX/releases/download/{{version}}/dqix.apworld
+default_url = "https://github.com/DQIX/ArchipelagoDQIX/releases/download/{{version}}/dqix.apworld"
 
 [versions]
 "0.1.2" = {}
