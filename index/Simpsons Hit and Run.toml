@@ -1,0 +1,6 @@
+name = "Simpsons Hit and Run"
+home = "https://discordapp.com/channels/731205301247803413/1524853868675076320"
+default_url = "https://github.com/nmize1/Archipelago/releases/download/v{{version}}/simpsonshitnrun.apworld"
+
+[versions]
+"0.5.5" = {}
