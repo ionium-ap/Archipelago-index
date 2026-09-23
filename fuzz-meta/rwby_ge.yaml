@@ -1,0 +1,46 @@
+RWBY Grimm Eclipse:
+  fuzz_constraints:
+    - option: max_characters
+      if_value: 1
+      then:
+        starting_characters: 1
+    - option: max_characters
+      if_value: 2
+      then:
+        starting_characters: random-range-1-2
+    - option: max_characters
+      if_value: 3
+      then:
+        starting_characters: random-range-1-3
+    - option: max_characters
+      if_value: 4
+      then:
+        starting_characters: random-range-1-4
+    - option: max_characters
+      if_value: 5
+      then:
+        starting_characters: random-range-1-5
+        jnpr_enabled: 'true'
+    - option: max_characters
+      if_value: 6
+      then:
+        starting_characters: random-range-1-6
+        jnpr_enabled: 'true'
+    - option: max_characters
+      if_value: 7
+      then:
+        starting_characters: random-range-1-7
+        jnpr_enabled: 'true'
+    - option: max_characters
+      if_value: 8
+      then:
+        starting_characters: random-range-1-8
+        jnpr_enabled: 'true'
+    - option: jnpr_enabled
+      if_value: 'false'
+      then_exclude:
+        characters_disabled: ["Ruby", "Weiss", "Blake"]
+    - option: jnpr_enabled
+      if_value: 'true'
+      then_exclude:
+        characters_disabled: ["Ruby", "Weiss", "Blake", "Yang", "Jaune", "Nora", "Pyrrha"]
