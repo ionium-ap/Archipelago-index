@@ -1,5 +1,4 @@
 name = "Bloons TD6"
-display_name = "Bloons Tower Defense 6"
 home = "https://discord.com/channels/731205301247803413/1465832575359516970"
 default_url = "https://github.com/Matt41321/Archipelago/releases/download/v{{version}}/bloonstd6.apworld"
 
