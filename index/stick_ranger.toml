@@ -1,0 +1,6 @@
+name = "Stick Ranger"
+home = "https://discord.com/channels/731205301247803413/1368511758662373517"
+default_url = "https://github.com/Kryen112/AP_Stick_Ranger/releases/download/{{version}}/stick_ranger.apworld"
+
+[versions]
+"1.8.2" = {}
