@@ -1,0 +1,6 @@
+name = "Glass Animals Discography"
+home = "https://discord.com/channels/731205301247803413/1543071773602615337"
+default_url = "https://github.com/benny-dreamly/Archipelago/releases/download/ga-{{version}}/glassanimals.apworld"
+
+[versions]
+"1.0.0" = {}
