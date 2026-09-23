@@ -1,4 +1,5 @@
-name = "BK Simulator"
+name = "BKSimulator"
+display_name = "BK Simulator"
 home = "https://discord.com/channels/731205301247803413/1445553022917808302"
 default_url = "https://github.com/BK-Simulator/BK-Simulator/releases/download/{{version}}/bksim.apworld"
 
