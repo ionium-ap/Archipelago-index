@@ -1,0 +1,6 @@
+name = "Dragon Quest III HD-2D Remake"
+home = "https://discord.com/channels/731205301247803413/1310325774397603931"
+default_url = "https://github.com/ZigzagAwaka/DQ3AP/releases/download/v{{version}}/dq3.apworld"
+
+[versions]
+"0.3.1" = {}
