@@ -2,4 +2,4 @@ name = "Banjo-Kazooie - Furnace Fun Only"
 home = "https://discord.com/channels/731205301247803413/1077665879241785537"
 
 [versions]
-"1" = { url = "https://github.com/PixelShake92/BKBK_But_It-s_Only_Furnace_Fun-Apworld/releases/download/V1/BKBK_But_It.s_Only_Furnace_Fun.apworld" }
+"1.0.0" = { url = "https://github.com/PixelShake92/BKBK_But_It-s_Only_Furnace_Fun-Apworld/releases/download/V1/BKBK_But_It.s_Only_Furnace_Fun.apworld" }
