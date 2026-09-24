@@ -1,0 +1,7 @@
+Mina The Hollower:
+  fuzz_constraints:
+    - option: generator_pool
+      ensure_any: [ "Queensbury Crypt", "Nox's Bayou", "Septemburg", "Bone Beach", "Coltrane Peak", "Astral Orrery" ]
+    - option: goal_generators
+      max_count_of: generator_pool
+
