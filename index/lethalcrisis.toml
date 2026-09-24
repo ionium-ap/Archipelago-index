@@ -1,0 +1,6 @@
+name = "Lethal Crisis"
+home = "https://discord.com/channels/731205301247803413/1533494447650639902"
+default_url = "https://github.com/HyperGeek7/LethalCrisis-AP/releases/download/v{{version}}/lethalcrisis.apworld"
+
+[versions]
+"0.1.1" = {}
