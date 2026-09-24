@@ -1,0 +1,6 @@
+name = "Mega Man X6"
+home = "https://discord.com/channels/731205301247803413/1334008047906853046"
+default_url = "https://github.com/Shinnuu/Archipelago/releases/download/mmx6-v{{version}}/mmx6.apworld"
+
+[versions]
+"0.4.1" = {}
