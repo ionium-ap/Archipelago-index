@@ -1,7 +1,6 @@
 name = "Banjo-Tooie"
 home = "https://discord.com/channels/731205301247803413/1380609128753532948"
 default_url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V{{version}}/banjo_tooie.apworld"
-disabled = true
 
 [versions]
 "4.13.1" = {}
