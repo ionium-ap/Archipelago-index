@@ -1,0 +1,6 @@
+name = "Mario & Luigi Dream Team"
+home = "https://discord.com/channels/731205301247803413/1197995053117870250"
+default_url = "https://github.com/MnL-Modding/Piillomizer/releases/download/v{{version}}/mldt.apworld"
+
+[versions]
+"0.1.3" = {}
