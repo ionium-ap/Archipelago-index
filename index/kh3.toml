@@ -2,4 +2,5 @@ name = "Kingdom Hearts III"
 home = "https://discord.com/channels/731205301247803413/1550101065834168330"
 
 [versions]
-"0.16.5" = { url = "https://ap.aesais.net/games/kingdom-hearts-iii/downloads/kh3.apworld" }
+"0.16.5" = { url = "https://ap.aesais.net/games/kingdom-hearts-iii/downloads/kh3-0.16.5.apworld" }
+"0.16.6" = { url = "https://ap.aesais.net/games/kingdom-hearts-iii/downloads/kh3-0.16.6.apworld" }
