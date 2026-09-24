@@ -1,0 +1,83 @@
+meta_description: >-
+  Haste rejects several option combinations in generate_early, which was costing
+  roughly 71% of the sample to OptionError (only ~140 of every 500 seeds landed
+  in the check-* suites). These constraints cover the five combinations that are
+  expressible here: goal below start, no starting ability past Shard 4, the
+  extra-progression options with both sanities off, a one-shard seed with both
+  sanities off, and triangular distribution on dynamic per-shard scaling. The two
+  remaining rejections are running location/item counts that depend on most of
+  the option set at once and are left alone deliberately.
+
+Haste:
+  fuzz_constraints:
+    # generate_early: "Shard Goal cannot be lower than the Starting Shard".
+    # Key on the rolled starting_shard and keep shard_goal at or above it.
+    - option: starting_shard
+      if_value: 1
+      then: {shard_goal: random-range-1-14}
+    - option: starting_shard
+      if_value: 2
+      then: {shard_goal: random-range-2-14}
+    - option: starting_shard
+      if_value: 3
+      then: {shard_goal: random-range-3-14}
+    - option: starting_shard
+      if_value: 4
+      then: {shard_goal: random-range-4-14}
+    - option: starting_shard
+      if_value: 5
+      then: {shard_goal: random-range-5-14}
+    - option: starting_shard
+      if_value: 6
+      then: {shard_goal: random-range-6-14}
+    - option: starting_shard
+      if_value: 7
+      then: {shard_goal: random-range-7-14}
+    - option: starting_shard
+      if_value: 8
+      then: {shard_goal: random-range-8-14}
+    - option: starting_shard
+      if_value: 9
+      then: {shard_goal: random-range-9-14}
+    - option: starting_shard
+      if_value: 10
+      then: {shard_goal: random-range-10-14}
+    - option: starting_shard
+      if_value: 11
+      then: {shard_goal: random-range-11-14}
+    - option: starting_shard
+      if_value: 12
+      then: {shard_goal: random-range-12-14}
+    - option: starting_shard
+      if_value: 13
+      then: {shard_goal: random-range-13-14}
+    - option: starting_shard
+      if_value: 14
+      then: {shard_goal: random-range-14-14}
+
+    # generate_early: "In order to have a Starting Shard greater than 4, you must
+    # start with an ability". Constrain the shard rather than the ability, so all
+    # five starting_ability values stay reachable. This re-rolls starting_shard,
+    # so it must re-floor shard_goal in the same rule -- otherwise a shard_goal
+    # already pinned from a lower roll can end up under the new starting_shard.
+    # Setting both together keeps the pair valid whichever order the rules run in.
+    - option: starting_ability
+      if_value: none
+      then:
+        starting_shard: random-range-1-4
+        shard_goal: random-range-4-14
+
+    # generate_early: extra progression (speed_upgrade / npc_shuffle /
+    # persistent_items) and a one-shard seed both require at least one sanity.
+    # Forcing fragmentsanity on whenever shopsanity is off satisfies both.
+    # "off" must stay quoted -- bare off is a YAML 1.1 boolean.
+    - option: shopsanity
+      if_value: "off"
+      then: {fragmentsanity: per_shard}
+
+    # generate_early: triangular distribution is rejected on dynamic per-shard
+    # scaling. Pinning static whenever triangular is rolled is a superset of that
+    # rule; scaling is inert when fragmentsanity is not per_shard.
+    - option: fragmentsanity_distribution
+      if_value: triangular
+      then: {pershard_fragmentsanity_scaling: static}
