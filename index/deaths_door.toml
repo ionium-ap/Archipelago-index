@@ -1,0 +1,6 @@
+name = "Death's Door"
+display_name = "Death's Door"
+default_url = "https://github.com/SsL2727/DeathsDoorAPWorld/releases/download/v{{version}}/deaths_door.apworld"
+
+[versions]
+"0.3.0" ={}
