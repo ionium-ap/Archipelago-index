@@ -4,3 +4,4 @@ default_url = "https://github.com/dowlle/ctr-native-ap/releases/download/v{{vers
 
 [versions]
 "0.2.1-alpha2" = {}
+"0.2.1" = {}
