@@ -1,0 +1,6 @@
+name = "Metroid: Samus Returns"
+home = "https://discord.com/channels/731205301247803413/1287051360818299092"
+default_url = "https://github.com/lilDavid/AP-SamusReturns/releases/download/{{version}}/msr.apworld"
+
+[versions]
+"0.3.1" = {}
