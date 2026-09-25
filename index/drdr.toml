@@ -1,0 +1,6 @@
+name = "Dead Rising Deluxe Remaster"
+home = "https://github.com/Str8UpWHITE64/DRAP"
+default_url = "https://github.com/Str8UpWHITE64/DRAP/releases/download/{{version}}/drdr.apworld"
+
+[versions]
+"1.1.1" = {}
