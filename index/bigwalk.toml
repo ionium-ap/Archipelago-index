@@ -1,0 +1,6 @@
+name = "Big Walk"
+home = "https://discord.com/channels/731205301247803413/1534975701982248980"
+default_url = "https://github.com/Grizfreak/BigWalk-archipelago/releases/download/{{version}}/bigwalk.apworld"
+
+[versions]
+"0.1.0" = {}
