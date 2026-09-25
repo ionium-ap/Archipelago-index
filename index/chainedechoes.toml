@@ -1,0 +1,6 @@
+name = "Chained Echoes"
+home = "https://discord.com/channels/731205301247803413/1306059155899154493"
+default_url = "https://github.com/Samupo/ChainedEchoesAPWorld/releases/download/v{{version}}/chainedechoes.apworld"
+
+[versions]
+"1.1.0" = {}
