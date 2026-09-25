@@ -5,3 +5,4 @@ default_url = "https://github.com/SerpentAI/Archipelago/releases/download/peggle
 [versions]
 "1.2.0" = {}
 "1.3.0" = {}
+"2.2.0" = {}
