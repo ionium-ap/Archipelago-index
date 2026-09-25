@@ -1,0 +1,43 @@
+NSMBW:
+  fuzz_constraints:
+    - option: alternative_goal
+      if_value: 'hintmovies'
+      then:
+        hint_movie_sanity: 'true'
+    - option: starcoin_sanity
+      if_value: 'false'
+      then:
+        hint_movie_sanity: 'true'
+    - option: hint_movie_sanity
+      if_value: 'true'
+      then:
+        level_shuffle_riivolution: 'false'
+    - option: level_completion
+      if_value: 'false'
+      then:
+        starcoin_sanity: 'true'
+    - option: level_shuffle_riivolution
+      if_value: 'true'
+      then: 
+        use_riivolution: 'true'
+    - option: music_shuffle_riivolution
+      if_value: 'true'
+      then: 
+        use_riivolution: 'true'
+    - option: tile_sheet_shuffle_riivolution
+      if_value: 'true'
+      then: 
+        use_riivolution: 'true'
+
+    # Settings below this point require enabling allow_gen_impactful_settings in the host.yaml to bypass
+    - sum_cap:
+        - include_inventory_powerups
+      max_capacity: 100
+    - option: logic_difficulty
+      if_value: 'hard'
+      then:
+        logic_difficulty: 'normal'
+    - option: hint_movie_shop_price_logic
+      if_value: 'ordered'
+      then:
+        hint_movie_shop_price_logic: 'progressive'
