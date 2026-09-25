@@ -1,0 +1,6 @@
+name = "Pokemon Trozei"
+home = "https://discord.com/channels/731205301247803413/1520408187642052670"
+default_url = "https://github.com/WCutePy/ArchipelagoAlmia/releases/download/trozei_v{{version}}/pokemon_trozei.apworld"
+
+[versions]
+"0.0.3" = {}
