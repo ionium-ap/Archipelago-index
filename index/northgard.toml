@@ -1,0 +1,6 @@
+name = "Northgard"
+home = "https://discord.com/channels/731205301247803413/1186432332417208411"
+default_url = "https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/download/{{version}}/northgard.apworld"
+
+[versions]
+"2026.09.14" = {}
