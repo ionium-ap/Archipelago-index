@@ -1,0 +1,6 @@
+name = "Operation Octo"
+home = "https://discord.com/channels/731205301247803413/1469520630901772494"
+default_url = "https://github.com/GraymonDgt/OperationOctoAP/releases/download/v{{version}}/operationocto.apworld"
+
+[versions]
+"0.1.3" = {}
