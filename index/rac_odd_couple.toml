@@ -1,0 +1,7 @@
+name = "Ratchet & Clank: The Odd Couple"
+home = "https://discord.com/channels/1085716850370957462/1550960103375503440"
+default_url = "https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac-odd-couple/v{{version}}/rac_odd_couple.apworld"
+tags = ["ad"]
+
+[versions]
+"0.0.3" = {}
