@@ -1,6 +1,7 @@
 name = "YARGLEGORockBand"
-homne = "https://discord.com/channels/731205301247803413/1454538103933898752"
+home = "https://discord.com/channels/731205301247803413/1454538103933898752"
 default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGLEGORockBand.apworld"
 
 [versions]
 "26.4.12" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.04.12/YARGLEGORockBand.apworld" }
+"26.09.17" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.09.17/YARGLEGORockBand.apworld" }
