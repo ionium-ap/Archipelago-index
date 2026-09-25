@@ -1,0 +1,7 @@
+name = "manual_fivenightswithfroggy2_cangri"
+display_name = "Manual: Five Nights with Froggy 2"
+home = "https://discord.com/channels/1097532591650910289/1097565430442365019"
+default_url = "https://github.com/Cangri7665/Five-Nights-With-Froggy-2-Manual-AP/releases/download/{{version}}/manual_fivenightswithfroggy2_cangri.apworld"
+
+[versions]
+"1.2.1" = {}
