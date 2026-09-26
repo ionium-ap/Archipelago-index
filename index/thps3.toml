@@ -1,0 +1,6 @@
+name = "Tony Hawk's Pro Skater 3"
+home = "https://discord.com/channels/731205301247803413/1069573904999399445"
+default_url = "https://github.com/randomcodegen/partymod-thps3_ap/releases/download/{{version}}/thps3.apworld"
+
+[versions]
+"1.0.5" = {}
