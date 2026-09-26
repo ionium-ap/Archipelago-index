@@ -1,0 +1,6 @@
+name = "Starship Titanic"
+home = "https://discord.com/channels/731205301247803413/1541548295258771516"
+default_url = "https://github.com/rescheer/Starship-Titanic-AP/releases/download/v{{version}}/starship_titanic.apworld"
+
+[versions]
+"0.2.3" = {}
