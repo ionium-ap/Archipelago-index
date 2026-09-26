@@ -1,0 +1,6 @@
+name = "Wario's Woods"
+home = "https://discord.com/channels/731205301247803413/1549549933743448164"
+default_url = "https://github.com/CCtheOwl/WariosWoodsNES_Archipelago/releases/download/{{version}}/warioswoods_nes.apworld"
+
+[versions]
+"1.0.0" = {}
