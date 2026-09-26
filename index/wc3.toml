@@ -1,0 +1,6 @@
+name = "Warcraft 3"
+home = "https://discord.com/channels/731205301247803413/1191314475056365609"
+default_url = "https://github.com/MatthewMarinets/war3-ap-maps/releases/download/0.0.1-release/wc3.apworld"
+
+[versions]
+"0.0.1" = {}
