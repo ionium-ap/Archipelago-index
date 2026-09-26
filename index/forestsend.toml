@@ -1,0 +1,6 @@
+name = "The Forest's End"
+home = "https://discord.com/channels/731205301247803413/1553411849486073897"
+default_url = "https://github.com/MarioManTAW/APTFE/releases/download/v{{version}}/forestsend.apworld"
+
+[versions]
+"1.0.0" = {}
