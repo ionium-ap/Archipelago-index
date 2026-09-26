@@ -1,0 +1,6 @@
+name = "SUPERHOT"
+home = "https://discord.com/channels/731205301247803413/1502527883715809321"
+default_url = "https://github.com/My-Key-Morris/SUPERHOT_Archipelago/releases/download/v0.2.1/superhot.apworld"
+
+[versions]
+"0.2.1" = {}
