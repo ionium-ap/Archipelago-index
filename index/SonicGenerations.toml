@@ -1,0 +1,5 @@
+name = "Sonic Generations"
+home = "https://discord.com/channels/731205301247803413/1170181857858560040"
+
+[versions]
+1.0.0-pre1 = { url = "https://github.com/absoluteSpacehead/Archipelago/releases/download/1.0-pre1/SonicGenerations.apworld" }
