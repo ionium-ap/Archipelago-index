@@ -4,4 +4,4 @@ default_url = "https://github.com/SerpentAI/Archipelago/releases/download/severe
 
 [versions]
 "1.0.0" = {}
-"1.0.1" = {}
+"1.0.1" = { url = "https://github.com/SerpentAI/Archipelago/releases/download/severed-steel-v1.0.1/severed_steel.apworld" }
