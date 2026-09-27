@@ -1,0 +1,7 @@
+name = "YARGBandHero"
+display_name = "YARG Band Hero"
+home = "https://discord.com/channels/731205301247803413/1454538103933898752"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGBandHero.apworld"
+
+[versions]
+"26.09.13" = {}
