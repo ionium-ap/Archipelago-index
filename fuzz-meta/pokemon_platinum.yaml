@@ -1,0 +1,85 @@
+meta_description: >-
+  Pokemon Platinum's validate() rejects almost every randomized YAML, leaving
+  3 usable seeds out of 5000 and zero coverage in six of the check suites.
+  Two groups cause nearly all of it: the eleven species/trainer list options,
+  where random blacklists trip the "too restrictive: can't get enough regional
+  species" guards and random dexsanity_required entries name impossible
+  locations, and the two in-logic sets, which with randomize_encounters off must
+  contain specific expanded methods. Three conditional option pairs account for
+  the rest and are handled below. This leaves the interesting logic options --
+  barricades, HM and badge requirements, dexsanity/trainersanity counts, goal,
+  fly items -- free to vary.
+
+Pokemon Platinum:
+  # Random species lists trip the "can't get enough regional species" guards in
+  # validate(), and random dexsanity_required/trainersanity_required entries ask
+  # for locations that may not exist. Empty means "no restriction".
+  starter_whitelist: []
+  starter_blacklist: []
+  encounter_species_blacklist: []
+  trainer_party_blacklist: []
+  roamer_blacklist: []
+  dexsanity_whitelist: []
+  dexsanity_blacklist: []
+  dexsanity_required: []
+  trainersanity_whitelist: []
+  trainersanity_blacklist: []
+  trainersanity_required: []
+
+  # Both sets must stay complete. With randomize_encounters off, validate()
+  # requires great_marsh_observatory_national_dex and munchlax_honey_tree in
+  # in_logic_encounters -- the first is produced by expanding
+  # great_marsh_observatory through ENCOUNTER_METHOD_MAP -- and level_happiness
+  # in in_logic_evolution_methods, which needs both happiness and level.
+  in_logic_encounters:
+    - surf
+    - rods
+    - radar
+    - cartridges
+    - time
+    - swarms
+    - great_marsh_observatory
+    - regular_honey_tree
+    - munchlax_honey_tree
+    - feebas_fishing
+    - trophy_garden
+    - odd_keystone
+    - roamers
+  in_logic_evolution_methods:
+    - level
+    - happiness
+    - use_item
+    - held_item
+    - time
+    - location
+    - mildly_annoying
+    - highly_annoying
+
+  # Not pinned on purpose: game_options and exp_multiplier also have strict
+  # validation, but the fuzzer leaves both at their defaults, so pinning them
+  # would be dead weight. death_link_group does get random text and has no
+  # validation to fail.
+
+  # The range allows up to 210, matching the regional species count, but the
+  # reachable in-logic subset is smaller and depends on pokedex and
+  # randomize_fly_items. Stay well under the cap while still varying.
+  regional_dex_goal: random-range-1-90
+
+  fuzz_constraints:
+    # validate(): with pastoria_barriers on and fly items unrandomized, Surf must
+    # not be badge-gated behind unrandomized badges, and one of HMs or key items
+    # must be randomized. Forcing both toggles on covers each branch; they are
+    # DefaultOnToggles, so this is their usual value anyway.
+    - option: pastoria_barriers
+      if_value: "true"
+      then:
+        badges: "true"
+        hms: "true"
+
+    # validate(): at least one of overworlds, hiddens, npc_gifts, key_items or
+    # poketch_apps must be enabled. Only all five off is rejected, and the DSL
+    # keys on one option, so pin key_items on when overworlds rolls off.
+    - option: overworlds
+      if_value: "false"
+      then:
+        key_items: "true"
