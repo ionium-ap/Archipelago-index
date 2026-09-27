@@ -4,4 +4,4 @@ home = "https://discord.com/channels/731205301247803413/1454538103933898752"
 default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGGuitarHeroWorldTour.apworld"
 
 [versions]
-"26.05.10" = {}
+"26.5.10" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.05.10/YARGGuitarHeroWorldTour.apworld" }
