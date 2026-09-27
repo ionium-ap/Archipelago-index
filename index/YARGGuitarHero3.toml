@@ -1,0 +1,7 @@
+name = "YARGGuitarHero3"
+display_name = "YARG Guitar Hero 3"
+home = "https://discord.com/channels/731205301247803413/1454538103933898752"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGGuitarHero3.apworld"
+
+[versions]
+"26.09.13" = {}
