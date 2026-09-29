@@ -1,7 +1,4 @@
 Wynncraft:
-  fuzz_constraints:
-    - option: starting_route
-      ensure_any: ["alekin", "detlas"]
   quest_checks: true
   cave_checks: true
   level_checks: true
