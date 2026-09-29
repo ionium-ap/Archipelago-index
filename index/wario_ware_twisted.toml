@@ -1,0 +1,6 @@
+name = "WarioWare: Twisted!"
+home = "https://discord.com/channels/731205301247803413/1554290270546169947"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/wariotwisted-v{{version}}/wario_ware_twisted.apworld
+
+[versions]
+"1.0.0" = {}
