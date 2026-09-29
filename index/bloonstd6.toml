@@ -4,3 +4,4 @@ default_url = "https://github.com/Matt41321/Archipelago/releases/download/v{{ver
 
 [versions]
 "0.8.1" = {}
+"0.8.2" = {}
