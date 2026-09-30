@@ -2,5 +2,7 @@ name = "Crash Team Racing"
 home = "https://discord.com/channels/731205301247803413/1222304293751750777"
 default_url = "https://github.com/dowlle/ctr-native-ap/releases/download/v{{version}}/ctr.apworld"
 
+disabled = true # Disabling as APWorld still has multiple gen issues.
+
 [versions]
 "0.2.2" = {}
