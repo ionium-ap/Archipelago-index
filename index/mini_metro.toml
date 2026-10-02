@@ -1,0 +1,6 @@
+name = "Mini Metro"
+home = "https://discord.com/channels/731205301247803413/1494718889471508582"
+default_url = "https://github.com/Slimm160/Mini-Metro-Archipelago/releases/download/{{version}}/mini_metro.apworld"
+
+[versions]
+"0.2.1-alpha" = {}
