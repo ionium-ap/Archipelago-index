@@ -1,0 +1,6 @@
+name = "Gravity Circuit (MuratDev's Implementation)"
+home = "https://discord.com/channels/731205301247803413/1555695577738780835"
+default_url = "https://github.com/MuratDev41/gravity-circuit-ap/releases/download/v{{version}}/gravity_circuit.apworld"
+
+[versions]
+"0.10.0" = {}
