@@ -1,0 +1,7 @@
+name = "Manual: Portal 2 Co-op"
+home = "https://discord.com/channels/1097532591650910289/1099846535459651665"
+
+[versions]
+"0.1.0" = { url = "https://cdn.discordapp.com/attachments/1099846535459651665/1100934156512399420/manual_portal2coop_hopop.apworld?ex=6abf9c95&is=6abe4b15&hm=1964595e70db236c77a9a603d9f8be8607222145111ac2cc316ac68218d83749&" }
+# the person who made the manual didn't put it on github, so I don't exactly know
+# how you want this in for the "url" field. if you change it, fine by me
