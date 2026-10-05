@@ -1,0 +1,6 @@
+name = "Mina The Hollower"
+homne = "https://discord.com/channels/731205301247803413/1538032356546318346"
+default_url = "https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/download/v{{version}}/mina_the_hollower.apworld"
+
+[versions]
+"1.1.1" = {}
