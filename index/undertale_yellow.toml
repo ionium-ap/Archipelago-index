@@ -6,4 +6,5 @@ default_url = "https://github.com/Pugie38/Undertale-Yellow-AP/releases/download/
 "0.3.0" = {}
 
 [releases]
+# version 0.3.0's archipelago.json declares 0.6.7 as a max, so 0.6.8 will not load it.
 "0.3.0" = { max_ap_version = "0.6.7" }
