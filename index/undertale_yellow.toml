@@ -1,0 +1,6 @@
+name = "Undertale Yellow"
+home = "https://discord.com/channels/731205301247803413/1538607981078249472"
+default_url = "https://github.com/Pugie38/Undertale-Yellow-AP/releases/download/v{{version}}/undertale_yellow.apworld"
+
+[versions]
+"0.3.0" = {}
