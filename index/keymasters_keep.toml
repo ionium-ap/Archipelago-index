@@ -1,6 +1,8 @@
 name = "Keymaster's Keep"
 home = "https://discord.com/channels/731205301247803413/1321323711676284939"
+default_url = "https://github.com/silasary/Archipelago/releases/download/keymasters_keep-{{version}}/keymasters_keep.apworld"
 
 [versions]
 # Modified version with silasary's kmk injector (https://github.com/silasary/kmk_injector) to include games in the apworld
 "0.2.0+silasarybundle" = { local = "../apworlds/keymasters_keep-0.2.0+silasarybundle.apworld" }
+"2.1.5" = {}
