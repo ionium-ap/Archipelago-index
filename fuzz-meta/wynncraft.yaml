@@ -1,0 +1,6 @@
+Wynncraft:
+  fuzz_constraints:
+    - option: starting_route
+      if_value: none
+      then:
+        starting_route: alekin
