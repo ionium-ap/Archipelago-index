@@ -1,0 +1,6 @@
+name = "Cult of the Lamb"
+home = "https://discord.com/channels/731205301247803413/1096006507495161867"
+default_url = "https://github.com/IanCichy/CultOfTheLamb_Archipelago/releases/download/v{{version}}/cult_of_the_lamb.apworld"
+
+[versions]
+"0.9.1" = {}

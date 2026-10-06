@@ -2,3 +2,11 @@ name = "Donkey Kong Country 3"
 home = "https://archipelago.gg"
 supported = true
 disabled = true # Needs a ROM not supplied by the lobby
+
+# Also no longer a core world from Archipelago 0.6.8 on. The top of this file describes 0.6.7
+# for as long as that is the oldest base version. If a release that needs no ROM ever appears
+# for 0.6.8 or newer: leave [versions] out, list the release in [releases] with a
+# min_ap_version, and add a [base.">=0.6.8"] table with both `disabled = false` and
+# `supported = false`. The README has an example of this shape, but its world was never core,
+# so it has no `supported = false`. Without that line, 0.6.8 would offer a core copy that
+# isn't there.
