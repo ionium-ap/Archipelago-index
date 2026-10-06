@@ -1,0 +1,6 @@
+name = "Team Fortress 2 Mann vs Machine"
+home = "https://discord.com/channels/731205301247803413/1265219066516344852"
+default_url = "https://github.com/m-this/tf2-archipelago/releases/download/v{{version}}/tf2_mvm.apworld"
+
+[versions]
+"1.17.3" = {}
