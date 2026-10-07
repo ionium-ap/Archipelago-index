@@ -1,0 +1,6 @@
+name = "Memories in Orbit"
+home = "https://discord.com/channels/731205301247803413/1466172431998652446"
+default_url = "https://github.com/ShackledMars261/mio-archipelago/releases/download/v{{version}}/mio.apworld"
+
+[versions]
+"0.0.1" = {}
