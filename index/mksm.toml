@@ -1,0 +1,7 @@
+name = "Mortal Kombat: Shaolin Monks"
+home = "https://discord.com/channels/1085716850370957462/1553810830103941261"
+default_url = "https://github.com/orizach01/Archipelago-MKSM/releases/download/{{version}}/mksm.apworld"
+tags = ["ad"]
+
+[versions]
+"1.1.1" = {}
