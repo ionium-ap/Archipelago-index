@@ -5,4 +5,4 @@ default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-fo
 
 [versions]
 "26.9.17" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.09.17/YARGAllSetlists.apworld" }
-"26.10.3" = {}
+"26.10.3" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.10.03/YARGAllSetlists.apworld" }
