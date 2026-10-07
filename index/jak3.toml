@@ -5,3 +5,4 @@ default_url = "https://github.com/Blake645/Archipelago/releases/download/{{versi
 [versions]
 "1.4.2" = {}
 "2.0.2" = {}
+"2.1.0" = {}
