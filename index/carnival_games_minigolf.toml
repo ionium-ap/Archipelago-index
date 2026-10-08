@@ -1,0 +1,5 @@
+name = "Carnival Games MiniGolf"
+home = "https://github.com/mariokirby1703/Lumas-Archipelago/tree/Carnival-Games-MiniGolf-AP"
+
+[versions]
+"0.1.0" = { url = "https://github.com/mariokirby1703/Lumas-Archipelago/releases/download/carnival_games_minigolf_v0.1.0/carnival_games_minigolf.apworld" }
