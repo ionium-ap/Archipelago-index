@@ -1,0 +1,6 @@
+name = "Carnival Games Minigolf"
+home = "https://discord.com/channels/731205301247803413/1545530060872749168"
+default_url = "https://github.com/mariokirby1703/Lumas-Archipelago/releases/download/carnival_games_minigolf_v{{version}}/carnival_games_minigolf.apworld"
+
+[versions]
+"0.1.0" = {}
