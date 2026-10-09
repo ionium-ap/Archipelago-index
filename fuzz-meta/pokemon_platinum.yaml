@@ -1,0 +1,47 @@
+meta_description: >-
+  These constraints cover the rejections that are expressible here:
+  species and trainer lists that leave too few regional Pokemon reachable, in-logic
+  encounter and evolution sets that omit methods the world needs, a dexsanity count
+  above the in-logic species count, and Pastoria barriers without the items that
+  open them.
+
+Pokemon Platinum:
+  # validate() rejects species and trainer lists that leave too few regional
+  # Pokemon obtainable. Emptied so every regional species stays reachable.
+  starter_whitelist: []
+  starter_blacklist: []
+  encounter_species_blacklist: []
+  trainer_party_blacklist: []
+  roamer_blacklist: []
+  dexsanity_whitelist: []
+  dexsanity_blacklist: []
+  dexsanity_required: []
+  trainersanity_whitelist: []
+  trainersanity_blacklist: []
+  trainersanity_required: []
+
+  # validate() rejects a dexsanity count above the number of in-logic species,
+  # so the range is held below that ceiling.
+  dexsanity: random-range-0-350
+
+  # validate() measures the regional dex goal against the species the other
+  # options leave reachable. Kept inside the span those options can supply.
+  regional_dex_goal: random-range-1-90
+
+  # validate() requires great_marsh_observatory_national_dex and
+  # munchlax_honey_tree to be in logic when encounters are not randomized, and
+  # level_happiness to be an in-logic evolution method. Both sets are pinned
+  # complete so those methods are always present.
+  in_logic_encounters:
+    ['trophy_garden', 'munchlax_honey_tree', 'cartridges', 'feebas_fishing', 'radar', 'rods', 'time', 'regular_honey_tree', 'great_marsh_observatory', 'surf', 'roamers', 'odd_keystone', 'swarms']
+  in_logic_evolution_methods: ['level', 'use_item', 'held_item', 'time', 'location', 'happiness']
+
+  fuzz_constraints:
+    # validate() requires badges when Surf needs the Fen Badge, and either hms
+    # or key_items, before Pastoria barriers can be enabled. Keyed on
+    # pastoria_barriers so both toggles keep their full range otherwise.
+    - option: pastoria_barriers
+      if_value: "true"
+      then:
+        badges: 1
+        hms: 1
