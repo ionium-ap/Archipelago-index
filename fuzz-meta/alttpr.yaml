@@ -1,0 +1,30 @@
+meta_description: >-
+  ALttP OWR rejects several option combinations in validate_options, which
+  discards the seed before generation starts. These constraints cover the
+  rejections that are expressible here: an invalid Link sprite, standard world
+  mode combined with door shuffle, and a Triforce Hunt goal above the Triforce
+  Hunt total.
+
+"The Legend of Zelda: A Link to the Past":
+  # validate_options requires sprite to be "Link" or a key of Sprites.sprites,
+  # so a randomized FreeText value is rejected. Weighted to keep both the default
+  # and the valid-non-default branch of that check reachable. The sprite is
+  # applied by a patch procedure and has no effect on generation.
+  sprite:
+    "Link": 70
+    "abigail": 10
+    "adol": 10
+    "angel": 10
+
+  # validate_options requires triforce_hunt_goal <= triforce_hunt_total. The DSL
+  # cannot express a relation between two rolled values, so one side has to be a
+  # constant, and it has to be the goal: triforce_hunt_total sizes the item pool.
+  triforce_hunt_goal: 1
+
+  fuzz_constraints:
+    # validate_options rejects standard world mode together with any non-vanilla
+    # door shuffle. Keyed on world_mode so all three modes stay reachable and
+    # door_shuffle keeps its full range in the other two.
+    - option: world_mode
+      if_value: standard
+      then: {door_shuffle: vanilla}

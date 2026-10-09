@@ -1,0 +1,7 @@
+name = "The Legend of Zelda: A Link to the Past"
+display_name = "The Legend of Zelda: A Link to the Past OWR"
+home = "https://discord.com/channels/731205301247803413/1500219037181939832"
+default_url = "https://github.com/aurabot24/Archipelago-ALttPR/releases/download/v{{version}}/alttpr.apworld"
+
+[versions]
+"1.6.1" = {}
