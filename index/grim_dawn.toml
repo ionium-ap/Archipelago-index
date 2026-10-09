@@ -7,3 +7,4 @@ default_url = "https://github.com/routhken/Archipelago/releases/download/v{{vers
 "0.2.0" = {}
 "0.3.0" = {}
 "0.4.0" = {}
+"0.4.1" = {}
