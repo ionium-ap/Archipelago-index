@@ -4,3 +4,4 @@ default_url = "https://github.com/gaithernOrg/ArchipelagoKHBBS/releases/download
 
 [versions]
 "0.1.7" = {}
+"0.2.0" = {}
