@@ -4,3 +4,4 @@ default_url = "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/
 
 [versions]
 "1.7.5+1-hotfix1" = { url = "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/releases/download/AP-v1.7.5.1/momodoramoonlitfarewell.apworld" }
+"1.8.0" = {}
