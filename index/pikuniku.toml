@@ -1,0 +1,6 @@
+name = "Pikuniku"
+home = "https://discord.com/channels/731205301247803413/1133538960807825551"
+default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Piku/releases/download/{{version}}/pikuniku.apworld"
+
+[versions]
+"0.3.1" = {}

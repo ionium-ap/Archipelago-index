@@ -1,0 +1,6 @@
+name = "Medievil 2"
+home = "https://discord.com/channels/731205301247803413/1406914527215489034"
+default_url = "https://github.com/riezahughes/Medievil2APWorld/releases/download/v{{version}}/medievil2.apworld"
+
+[versions]
+"0.2.4" = {}

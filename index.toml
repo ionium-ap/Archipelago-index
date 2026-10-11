@@ -2,3 +2,6 @@ archipelago_repo = "https://github.com/ArchipelagoMW/Archipelago.git"
 archipelago_version = "0.6.7"
 index_homepage = "https://github.com/ionium-ap/Archipelago-index"
 index_dir = "index"
+
+[bases."0.6.7"]
+[bases."0.6.8"]

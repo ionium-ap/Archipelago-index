@@ -1,0 +1,7 @@
+name = "YARGGreenDayRockBand"
+display_name = "YARG Green Day Rock Band"
+home = "https://discord.com/channels/731205301247803413/1454538103933898752"
+default_url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/{{version}}/YARGGreenDayRockBand.apworld"
+
+[versions]
+"26.10.3" = { url = "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases/download/26.10.03/YARGGreenDayRockBand.apworld" }

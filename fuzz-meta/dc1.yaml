@@ -1,0 +1,33 @@
+meta_description: >-
+  Dark Cloud 1 validates its six character-name options in the option
+  constructor, so a randomized FreeText value raises OptionError before
+  generation starts and the seed is ignored. Left unconstrained this costs
+  every randomized suite its entire sample. Pin the names to values that
+  satisfy both validators, weighted toward the defaults but still covering
+  the 1-character and 10-character boundaries and the permitted punctuation.
+
+Dark Cloud 1:
+  toan_name:
+    "Toan": 50
+    "T": 25
+    "Toan Smith": 25
+  xiao_name:
+    "Xiao": 50
+    "X": 25
+    "XiaoXiaoXi": 25
+  goro_name:
+    "Goro": 50
+    "G": 25
+    "Goro!?#&+-": 25
+  ruby_name:
+    "Ruby": 50
+    "R": 25
+    "Ruby'=\"()@": 25
+  ungaga_name:
+    "Ungaga": 50
+    "U": 25
+    "Ungaga~<>[": 25
+  osmond_name:
+    "Osmond": 50
+    "O": 25
+    "Osmond$.,:": 25

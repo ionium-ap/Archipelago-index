@@ -1,0 +1,6 @@
+name = "20 Minutes Till Dawn"
+home = "https://discord.com/channels/731205301247803413/1550905910530941038"
+default_url = "https://github.com/SerpentAI/Archipelago/releases/download/20-minutes-till-dawn-v{{version}}/twenty_minutes_till_dawn.apworld"
+
+[versions]
+"1.0.0" = {}

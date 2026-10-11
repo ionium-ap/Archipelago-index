@@ -1,0 +1,7 @@
+name = "Sonic Frontiers"
+home = "https://discord.com/channels/731205301247803413/1039693292222283807"
+# Not the original dev's repo, but a fork of it that the dev is aware of, made to pass the fuzzer, may change in the future
+default_url = "https://github.com/Omeeeeega/SonicFrontiersAPWorld/releases/download/v{{version}}/sonic_frontiers.apworld"
+
+[versions]
+"0.2.2" = {}

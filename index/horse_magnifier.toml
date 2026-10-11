@@ -1,0 +1,7 @@
+name = "Horse Magnifier"
+display_name = "Horse Magnifier: The Full Horse"
+home = "https://discord.com/channels/731205301247803413/1538278549084045312"
+default_url = "https://github.com/DannySchultzDev/Archipelago-Horse-Magnifier-Client/releases/download/V{{version}}/horse_magnifier.apworld"
+
+[versions]
+"1.3.1" = {}

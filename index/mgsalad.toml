@@ -1,0 +1,7 @@
+name = "MGS: Masala Garden Salad"
+home = "https://discord.com/channels/1085716850370957462/1315894829909016668"
+default_url = "https://github.com/TheRealSolidusSnake/Archipelago/releases/download/{{version}}/mgsalad.apworld"
+tags = ["ad"]
+
+[versions]
+"1.0.0" = {}

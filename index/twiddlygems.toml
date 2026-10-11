@@ -1,0 +1,6 @@
+name = "Twiddly Gems"
+home = "https://discord.com/channels/731205301247803413/1556109934494617690"
+default_url = "https://github.com/mooinglemur/twiddlygems/releases/download/v{{version}}/twiddlygems.apworld"
+
+[versions]
+"0.1.1" = {}

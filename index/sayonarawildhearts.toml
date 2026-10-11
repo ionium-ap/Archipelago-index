@@ -1,0 +1,6 @@
+name = "Sayonara Wild Hearts"
+home = "https://discord.com/channels/731205301247803413/1535933164239720548"
+default_url = "https://github.com/Chainsawkitten/SayonaraWildHeartsAP/releases/download/{{version}}/sayonarawildhearts.apworld"
+
+[versions]
+"1.1.0" = {}

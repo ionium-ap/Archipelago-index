@@ -1,0 +1,6 @@
+name = "Rhythm Tengoku"
+home = "https://discord.com/channels/731205301247803413/1535545049100587130"
+default_url = "https://github.com/TheLX5/Archipelago/releases/download/tengoku-v{{version}}/rhythm_tengoku.apworld"
+
+[versions]
+"1.0.3" = {}

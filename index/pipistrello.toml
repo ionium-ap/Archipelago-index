@@ -1,0 +1,6 @@
+name = "Pipistrello and the Cursed Yoyo"
+home = "https://discord.com/channels/731205301247803413/1383917977652432986"
+default_url = "https://github.com/CertifiedPyro/PipistrelloArchipelago/releases/download/v{{version}}/pipistrello.apworld"
+
+[versions]
+"0.3.1" = {}

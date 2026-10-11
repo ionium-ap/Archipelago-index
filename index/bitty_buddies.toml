@@ -1,0 +1,6 @@
+name = "Bitty Buddies"
+home = "https://github.com/bmorledge-hampton19/bitty_buddies_apworld"
+default_url = "https://github.com/bmorledge-hampton19/bitty_buddies_apworld/releases/download/{{version}}/bitty_buddies.apworld"
+
+[versions]
+"1.0.0" = {}

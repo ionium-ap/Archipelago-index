@@ -7,3 +7,4 @@ default_url = "https://github.com/ArchipelagoDoom/APDoom/releases/download/v{{ve
 "2.0.0-beta3" = {}
 "2.0.0-beta4" = {}
 "2.0.20260716" = { url = "https://github.com/ArchipelagoDoom/worlds/raw/2b93638/Official/heretic_beta.apworld" }
+"2.0.20260923" = { url = "https://github.com/ArchipelagoDoom/worlds/raw/d9ca7ed/Official/heretic_beta.apworld" }

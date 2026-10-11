@@ -1,0 +1,5 @@
+name = "Three Goblin Wobblin"
+home = "https://discord.com/channels/731205301247803413/1487653426128228362"
+
+[versions]
+"0.0.3" = { url = "https://github.com/melenehh/Three-Goblin-Archipelago/releases/download/TPalpha/three_goblin_wobblin.apworld" }

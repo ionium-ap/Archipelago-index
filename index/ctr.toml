@@ -1,12 +1,8 @@
 name = "Crash Team Racing"
-home = "https://github.com/dowlle/ctr-native-ap"
+home = "https://discord.com/channels/731205301247803413/1222304293751750777"
 default_url = "https://github.com/dowlle/ctr-native-ap/releases/download/v{{version}}/ctr.apworld"
-setup_guide = "https://github.com/dowlle/ctr-archipelago-apworld/blob/main/worlds/ctr/docs/setup_en.md"
+
+disabled = true # Disabling as APWorld still has multiple gen issues.
 
 [versions]
-"0.1.0" = {}
-"0.1.1" = {}
-"0.1.2" = {}
-"0.1.3" = {}
-"0.1.4" = {}
-"0.1.5" = {}
+"0.2.2" = {}

@@ -1,0 +1,6 @@
+name = "PapaLouie2"
+display_name = "Papa Louie 2: When Burgers Attack!"
+home = "https://discord.com/channels/731205301247803413/1547011486868705280"
+
+[versions]
+"3.0.0" = { url = "https://github.com/Lukeylion/Papa-Louie-2-AP/releases/download/03-DoubleSendFix/PapaLouie2.apworld" }

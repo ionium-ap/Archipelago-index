@@ -1,0 +1,6 @@
+name = "Johnny Upgrade"
+home = "https://discord.com/channels/731205301247803413/1535184441805111367"
+default_url = "https://github.com/barretg/johnny-upgrade-ap/releases/download/v{{version}}/johnny_upgrade.apworld"
+
+[versions]
+"1.4.1" = {}

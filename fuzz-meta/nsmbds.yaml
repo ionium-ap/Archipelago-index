@@ -1,0 +1,12 @@
+New Super Mario Bros. DS:
+  fuzz_constraints:
+    - option: filler_items
+      ensure_any: ['care_package', 'life_insurance', 'powerups', 'starman_lite', 'time_capsule', 'coins', 'trap_shield', 'extra_lives', 'starman']
+    - option: death_link_random_effects
+      ensure_any: ['death', 'lose_all_coins', 'damage', 'timer_drain']
+    - sum_cap:
+          - blocksanity_global_check_percentage
+      max_capacity: 30
+    - sum_cap:
+          - trap_percentage
+      max_capacity: 50

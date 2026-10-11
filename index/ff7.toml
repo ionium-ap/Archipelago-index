@@ -4,3 +4,4 @@ default_url = "https://github.com/blazerwazey/FF7pelago/releases/download/v{{ver
 
 [versions]
 "0.0.5+a" = { url = "https://github.com/blazerwazey/FF7pelago/releases/download/v0.0.5a/ff7.apworld" }
+"0.0.6" = {}

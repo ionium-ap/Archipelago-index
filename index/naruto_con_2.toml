@@ -1,0 +1,6 @@
+name = "Naruto Clash of Ninja 2"
+home = "https://discord.com/channels/731205301247803413/1481549114230702080"
+default_url = "https://github.com/richarm4/Archipelago/releases/download/ncon2-{{version}}/naruto_con_2.apworld"
+
+[versions]
+"0.2.0" = {}

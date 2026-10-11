@@ -1,0 +1,6 @@
+name = "Easy Delivery Co."
+home = "https://discord.com/channels/731205301247803413/1423575768302358569"
+default_url = "https://github.com/Aeromaze/Archipelago/releases/download/v{{version}}/easy_delivery_co.apworld"
+
+[versions]
+"0.2.3" = {}

@@ -197,10 +197,17 @@ jobs:
             // ignores the PR entirely; verify-index reports only what the PR
             // changed. Two rows so pre-existing drift never reads as the
             // contributor's fault.
+            // Non-matrix jobs only. `check`, `unit-tests` and `network-audit` became one lane
+            // per Archipelago base, so their contexts are now `check---0-6-7` and the like --
+            // GitLab's slug of `check: [0.6.7]`, confirmed on PR #704.
+            // Listing those would pin the base table in a third place and leave a permanently
+            // pending row the day a base is retired -- the same reason the fuzz variants are
+            // not listed. Their rows appear as each lane finishes, and unit-tests-comment is
+            // the stable row covering the unit-test run as a whole.
             const base = [
-              'diff', 'check', 'verify-index-main', 'verify-index',
-              'verify-apworlds', 'apdiff', 'comment-diff', 'unit-tests',
-              'network-audit',
+              'diff', 'verify-index-main', 'verify-index', 'verify-apworlds',
+              'apdiff', 'comment-diff', 'unit-tests-comment', 'apwm-lint',
+              'legacy-index', 'legacy-index-main',
             ];
             const fuzzOnly = mode === 'fuzz' ? ['fuzz-comment'] : [];
             const contexts = [...base, ...fuzzOnly].map(c => `gitlab/${c}`);
