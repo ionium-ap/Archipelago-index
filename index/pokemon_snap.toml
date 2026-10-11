@@ -4,3 +4,5 @@ default_url = "https://github.com/nielrenned/PokemonSnap_Archipelago/releases/do
 
 [versions]
 "0.6.1" = {}
+"0.7.0" = {}
+"0.8.0" = {}
