@@ -1,0 +1,6 @@
+name = "The Magical Quest Starring Mickey Mouse"
+home = "https://discord.com/channels/731205301247803413/1345913242085752852"
+default_url = "https://github.com/Abimo25/MagicalQuestAP/releases/download/v{{version}}/magical_quest.apworld"
+
+[versions]
+"0.1.0" = {}
