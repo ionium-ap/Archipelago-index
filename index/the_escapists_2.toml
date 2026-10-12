@@ -1,0 +1,5 @@
+name = "The Escapists 2"
+home = "https://discord.com/channels/731205301247803413/1169027214751322225"
+
+[versions]
+"0.1.0" = { url = "https://github.com/BigCelery842906/TE2Archipelago/releases/download/v0.1.0_Initial_Release/the_escapists_2.apworld" }

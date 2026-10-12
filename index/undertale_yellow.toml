@@ -3,8 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1538607981078249472"
 default_url = "https://github.com/Pugie38/Undertale-Yellow-AP/releases/download/v{{version}}/undertale_yellow.apworld"
 
 [versions]
-"0.3.0" = {}
-
-[releases]
-# version 0.3.0's archipelago.json declares 0.6.7 as a max, so 0.6.8 will not load it.
-"0.3.0" = { max_ap_version = "0.6.7" }
+"0.3.0+hotfix2" = { url = "https://github.com/Pugie38/Undertale-Yellow-AP/releases/download/v0.3.0/undertale_yellow.apworld" }
