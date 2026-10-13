@@ -1,0 +1,5 @@
+name = "The Murder of Sonic the Hedgehog"
+home = "https://discord.com/channels/731205301247803413/1517158452378730656"
+
+[versions]
+"0.2.1-alpha" = { url = "https://github.com/Kylogias/MurderOfSonicAP/releases/download/v0.2.1-alpha/tmosth.apworld" }
