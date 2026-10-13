@@ -6,4 +6,4 @@ default_url = "https://github.com/CriminalPancake/void-stranger-ap/releases/down
 "0.9.2+hotfix1" = { url = "https://github.com/CriminalPancake/void-stranger-ap/releases/download/v0.9.2.1/voidstranger.apworld" }
 "0.10.0" = {}
 "0.10.2" = {}
-"0.11.4" = { url = "https://github.com/Cavin856/void-stranger-ap/blob/938a6bce2fd374792bec02b1bea6cc2e09299f44/voidstranger.apworld" }
+"0.11.4" = { url = "https://github.com/Cavin856/void-stranger-ap/raw/938a6bce2fd374792bec02b1bea6cc2e09299f44/voidstranger.apworld" }
