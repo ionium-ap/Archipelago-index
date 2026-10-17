@@ -1,5 +1,6 @@
 name = "Slay the Spire II"
 default_url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/download/{{version}}/spire2.apworld"
+home = "https://discord.com/channels/731205301247803413/1524232611654799540"
 
 [versions]
 "0.4.1-alpha" = { url = "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases/download/v0.4.1-alpha/spire2.apworld"}
