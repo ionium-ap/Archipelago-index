@@ -1,0 +1,6 @@
+name = "Super Mario Galaxy"
+home = "https://discord.com/channels/731205301247803413/1560275772684509284"
+default_url = "https://github.com/Joethepic/Archipelago/releases/download/smg-V{{version}}/smgalaxy.apworld"
+
+[versions]
+"0.0.1" = {}
