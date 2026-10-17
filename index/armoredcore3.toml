@@ -3,4 +3,5 @@ home = "https://discord.com/channels/731205301247803413/1539702506815234078"
 default_url = "https://github.com/Aleksandylmao/Armored-Core-3-PCSX2-Archipelago/releases/download/v{{version}}/armoredcore3.apworld"
 
 [versions]
-"0.1.2" = []
+"0.1.2" = {}
+"0.2.0" = {}
