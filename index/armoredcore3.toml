@@ -4,4 +4,6 @@ default_url = "https://github.com/Aleksandylmao/Armored-Core-3-PCSX2-Archipelago
 
 [versions]
 "0.1.2" = {}
-"0.2.0" = {}
+
+[releases]
+"0.2.0" = { min_ap_version = "0.6.8" }
