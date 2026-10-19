@@ -3,6 +3,7 @@ home = "https://discord.com/channels/731205301247803413/1539702506815234078"
 default_url = "https://github.com/Aleksandylmao/Armored-Core-3-PCSX2-Archipelago/releases/download/v{{version}}/armoredcore3.apworld"
 
 [versions]
+# Anything in [versions] must be compatible with AP 0.6.7
 "0.1.2" = {}
 
 [releases]
