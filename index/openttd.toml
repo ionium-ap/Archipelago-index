@@ -1,0 +1,6 @@
+name = "OpenTTD"
+home = "https://github.com/solida1987/openttd-archipelago"
+default_url = "https://github.com/solida1987/openttd-archipelago/releases/download/v{{version}}/openttd.apworld"
+
+[versions]
+"2.2.3" = {}
