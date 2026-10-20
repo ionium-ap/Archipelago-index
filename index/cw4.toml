@@ -1,0 +1,6 @@
+name = "Creeper World 4"
+home = "https://discord.com/channels/731205301247803413/1459275013399248896"
+default_url = "https://github.com/drohack/cw4-archipelago/releases/download/v{{version}}/cw4.apworld"
+
+[versions]
+"0.2.0" = {}
