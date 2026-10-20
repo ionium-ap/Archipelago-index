@@ -1,3 +1,7 @@
 name = "Celeste (Open World)"
 home = "https://archipelago.gg"
 supported = true
+default_url = "https://github.com/PoryGoneDev/Celeste-Archipelago-Open-World/releases/download/v{{version}}/celeste_open_world.apworld"
+
+[versions]
+"1.1.1" = {}
