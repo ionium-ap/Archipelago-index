@@ -1,0 +1,20 @@
+Hades2Rogue:
+  fuzz_constraints:
+    - option: included_weapons
+      ensure_any:
+        - Staff
+        - Blades
+        - Flames
+        - Axe
+        - Skull
+        - Coat
+    - option: goals_required
+      if_value: []
+      then:
+        goal_requires_zagreus: true
+    - option: include_regions
+      ensure_any:
+        - Underworld
+        - Surface
+        - Nightmare
+        - Dream
