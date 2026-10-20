@@ -1,0 +1,6 @@
+name = "Y2ROLL"
+home = "https://discord.com/channels/731205301247803413/1538706800428326923"
+default_url = "https://github.com/josephwhite/Y2ROLL-mods/releases/download/{{version}}/y2roll.apworld"
+
+[versions]
+"0.0.6" = {}
