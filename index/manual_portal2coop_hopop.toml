@@ -1,0 +1,7 @@
+name = "Manual_Portal2Coop_Hopop"
+display_name = "Manual: Portal 2 Co-op"
+home = "https://discord.com/channels/1097532591650910289/1099846535459651665"
+
+[versions]
+"0.1.0" = { url = "https://raw.githubusercontent.com/Grenhunterr/grens-manual-repo/refs/heads/main/not_my_manuals/manual_portal2coop_hopop.apworld" }
+# Gren here. this is on my git for right now. if OP doesn't want it there, I will take it down and submit a pr to have this disabled so it doesn't break anything
