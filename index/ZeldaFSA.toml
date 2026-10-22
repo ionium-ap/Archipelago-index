@@ -1,0 +1,6 @@
+name = "The Legend of Zelda: Four Swords Adventures"
+home = "https://discord.com/channels/731205301247803413/1236415827595624549"
+default_url = "https://github.com/Drogebot/Archipelago-zfsa/releases/download/v{{version}}/ZeldaFSA.apworld"
+
+[versions]
+"0.0.9" = {}
