@@ -11,3 +11,4 @@ default_url = "https://github.com/Uroogla/S2AP/releases/download/{{version}}/spy
 "1.1.1" = {}
 "2.0.0" = {}
 "2.1.0" = {}
+"2.2.0" = {}
