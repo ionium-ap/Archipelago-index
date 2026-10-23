@@ -1,0 +1,11 @@
+name = "Khimera: Destroy All Monster Girls"
+home = "https://discord.com/channels/731205301247803413/1536554444575997993"
+default_url = "https://github.com/Troloze/KhimeraDAMG-AP/releases/download/{{version}}/khimera_damg.apworld"
+
+disabled = true
+
+[releases]
+"0.1.0" = { min_ap_version = "0.6.8" }
+
+[base.">=0.6.8"]
+disabled = false
