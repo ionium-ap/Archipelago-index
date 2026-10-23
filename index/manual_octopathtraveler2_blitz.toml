@@ -1,0 +1,7 @@
+name = "Manual_OctopathTraveler2_Blitz"
+display_name = "Manual: Octopath Traveler 2"
+home = "https://discord.com/channels/1097532591650910289/1527392475340083311"
+default_url = "https://github.com/BL4Z3210/Manual-Octopath-Traveler-2-Archipelago/releases/download/V{{version}}/manual_octopathtraveler2_blitz.apworld"
+
+[versions]
+"4.0.0" = {}
