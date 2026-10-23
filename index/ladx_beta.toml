@@ -4,3 +4,4 @@ default_url = "https://github.com/threeandthreee/Archipelago/releases/download/{
 
 [versions]
 "13.6.2" = {}
+"13.6.3" = {}
