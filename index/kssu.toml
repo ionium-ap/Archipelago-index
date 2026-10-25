@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1373856853775220836"
 default_url = "https://github.com/GhostCappy/Archipelago/releases/download/kssu-v{{version}}/kssu.apworld"
 
 [versions]
-"0.2.01" = {}
+"0.2.1" = { url = "https://github.com/GhostCappy/Archipelago/releases/download/kssu-v0.2.01/kssu.apworld" }
