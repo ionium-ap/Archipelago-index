@@ -1,0 +1,8 @@
+meta_description: Descriptions? In my Meta? No :)
+Moonlighter:
+  # world.py:47 Rejects every equipment_randomizer other than progressive
+  equipment_randomizer: progressive
+  # world.py:50 Rejects goal: collector
+  goal:
+    fifth_dungeon: 1
+    pirate_boss: 1
