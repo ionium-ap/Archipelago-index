@@ -1,9 +1,0 @@
-name = "Mega Man 8"
-home = "https://discord.com/channels/731205301247803413/1349251486261182496"
-default_url = "https://github.com/Shinnuu/Archipelago/releases/download/mm8-v{{version}}/mm8.apworld"
-
-[versions]
-"0.2.0" = {}
-"0.2.1" = {}
-"0.2.2" = {}
-"0.2.3" = {}

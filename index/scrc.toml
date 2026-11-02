@@ -1,5 +1,5 @@
 name = "Super Crazy Rhythm Castle"
 home = "https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago"
+disabled = true
 
-[versions]
-"0.29.0" = { url = "https://github.com/Akamarus/Super-Crazy-Rhythm-Castle-Archipelago/releases/download/v0.29.1/scrc.apworld" }
+# removed from the AP discord for CoC violations
