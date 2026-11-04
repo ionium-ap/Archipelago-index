@@ -1,0 +1,6 @@
+name = "Blue Prince"
+home = "https://github.com/BatmenzDW/Archipelago"
+default_url = "https://github.com/BatmenzDW/Archipelago/releases/download/v{{version}}/blueprince.apworld"
+
+[versions]
+"0.1.3" = {}
