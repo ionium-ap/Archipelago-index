@@ -1,0 +1,34 @@
+meta_description: Steers the fuzz away from option combinations Mario Sports Mix rejects in generate_early (__init__.py). Every other option stays random.
+Mario Sports Mix:
+  fuzz_constraints:
+    # __init__.py:158-168: boss locations need tournaments; Behemoth King also needs Sports Mix
+    - option: boss_locations
+      if_value: defeat_behemoth
+      then: {include_tournaments: 'true'}
+    - option: boss_locations
+      if_value: defeat_behemoth_king
+      then: {include_tournaments: 'true'}
+      then_include: {enabled_sports: ["Sports Mix"]}
+    - option: boss_locations
+      if_value: both
+      then: {include_tournaments: 'true'}
+      then_include: {enabled_sports: ["Sports Mix"]}
+    # __init__.py:191-195: alt paths need tournaments
+    - option: include_alt_paths
+      if_value: 'true'
+      then: {include_tournaments: 'true'}
+    # __init__.py:209-217: Behemoth / Behemoth King / Win Cups goals need tournaments; Behemoth King needs Sports Mix
+    - option: goal_condition
+      if_value: defeat_behemoth
+      then: {include_tournaments: 'true'}
+    - option: goal_condition
+      if_value: defeat_behemoth_king
+      then: {include_tournaments: 'true'}
+      then_include: {enabled_sports: ["Sports Mix"]}
+    - option: goal_condition
+      if_value: win_cups
+      then: {include_tournaments: 'true'}
+    # __init__.py:219-227: Exhibition Tour needs exhibitions with Exhibition Type: All Sports
+    - option: goal_condition
+      if_value: exhibition_tour
+      then: {include_exhibition: 'true', exhibition_type: all_sports}
