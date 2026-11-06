@@ -1,0 +1,6 @@
+name = "Burnout Paradise Remastered"
+home = "https://discord.com/channels/731205301247803413/1349428050609176731/1566173995173417171"
+default_url = "https://github.com/DanielSchaack/Archipelago-BurnoutParadiseRemastered/releases/download/v{{version}}/burnout_paradise_remastered.apworld"
+
+[versions]
+"1.0.4" = {}
