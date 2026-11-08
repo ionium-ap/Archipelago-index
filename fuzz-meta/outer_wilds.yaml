@@ -9,7 +9,7 @@ Outer Wilds:
       if_value: timber_hearth
       then: {shuffle_spacesuit: "false"}
     - option: spawn
-          if_value: brittle_hollow
+      if_value: brittle_hollow
       then: {shuffle_spacesuit: "false"}
     - option: spawn
       if_value: giants_deep
