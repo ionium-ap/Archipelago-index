@@ -4,3 +4,4 @@ default_url = "https://github.com/EverydaySimpleDev/Archipelago/releases/downloa
 
 [versions]
 "0.2.0" = {}
+"0.3.0" = {}
