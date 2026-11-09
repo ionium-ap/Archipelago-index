@@ -15,3 +15,6 @@ default_url = "https://github.com/MarioSpore/Grinch-AP/releases/download/v{{vers
 "1.6.1" = {}
 "1.6.2" = {}
 "1.6.3" = {}
+
+[releases]
+"1.6.4" = { min_ap_version = "0.6.8" }

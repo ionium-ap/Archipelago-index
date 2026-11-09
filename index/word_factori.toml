@@ -1,0 +1,6 @@
+name = "Word Factori"
+home = "https://github.com/Akamarus/word-factori-archipelago"
+default_url = "https://github.com/Akamarus/word-factori-archipelago/releases/download/v{{version}}/word_factori.apworld"
+disabled = true
+
+# removed from the AP discord for CoC violations

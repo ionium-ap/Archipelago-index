@@ -1,0 +1,11 @@
+# Give the roster a character when it would otherwise be empty, and let the
+# world pick the starting character from that roster when the start is fixed.
+# The roster contents and every other option stay randomized.
+Slay the Spire II:
+  fuzz_constraints:
+    - option: characters
+      ensure_any: [Ironclad, Silent, Defect, Regent, Necrobinder]
+    - option: lock_characters
+      if_value: locked_fixed
+      then:
+        unlocked_character: ""
