@@ -1,0 +1,12 @@
+cookingmama3:
+  fuzz_constraints:
+    - option: goal_option
+      ensure_any: [unlocked_recipes, gold_medals, cook_for_friend, special_items]
+
+    - option: goal_option
+      if_any_selected: [unlocked_recipes]
+      requires_any: [gold_medals, cook_for_friend, special_items]
+
+    # Excluded_medal_checks doesn't allow full 7-key set. Picks one of the below to survive.
+    - option: excluded_medal_checks
+      mutually_exclusive: [gold_medal_cook_with_mama, smiley_face]
