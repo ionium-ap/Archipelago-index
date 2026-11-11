@@ -1,0 +1,6 @@
+name = "Wikipelago"
+home = "https://discord.com/channels/731205301247803413/1462007968902938768"
+default_url = "https://github.com/Dreskn/Wikipelago-Continued/releases/download/{{version}}/wikipelago.apworld"
+
+[versions]
+"1.0.3" = {}
