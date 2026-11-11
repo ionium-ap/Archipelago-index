@@ -1,0 +1,7 @@
+name = "OpenTTD Cargolock"
+home = "https://discord.com/channels/731205301247803413/1483545936998174871"
+default_url = "https://github.com/kbab13reel/openttd-archipelago/releases/download/{{version}}/openttd_cargolock.apworld"
+
+[versions]
+"0.3.0" = {}
+"0.3.1" = {}
