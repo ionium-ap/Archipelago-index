@@ -3,4 +3,4 @@ home = "https://github.com/Kevanderson97/homura-hime-archipelago"
 default_url = "https://github.com/Kevanderson97/homura-hime-archipelago/releases/download/v{{version}}/homura_hime.apworld"
 
 [versions]
-"0.4.2" = {}
+"0.4.3" = {}
