@@ -1,4 +1,4 @@
-Cooking Mama 3::
+Cooking Mama 3:
   fuzz_constraints:
     - option: goal_option
       ensure_any: [unlocked_recipes, gold_medals, cook_for_friend, special_items]
