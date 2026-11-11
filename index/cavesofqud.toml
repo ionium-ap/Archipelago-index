@@ -1,6 +1,7 @@
 name = "Caves of Qud"
 home = "https://discord.com/channels/731205301247803413/1368279310317654087"
-default_url = "https://github.com/lonesurv1vor/CavesOfQudArchipelagoRandomizer/releases/download/v{{version}}/cavesofqud.apworld"
+default_url = "https://github.com/SabreCat/CavesOfQudArchipelagoRandomizer/releases/download/v{{version}}/cavesofqud.apworld"
 
 [versions]
-"0.7.0" = {}
+"0.7.0" = { url = "https://github.com/lonesurv1vor/CavesOfQudArchipelagoRandomizer/releases/download/v0.7.0/cavesofqud.apworld" }
+"0.8.2" = {}
