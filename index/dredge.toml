@@ -3,3 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1323663496566542336"
 
 [versions]
 "0.5.1" = { url = "https://github.com/alextric234/ArchipelagoDredge/releases/download/dredge_0.5.1/dredge.apworld" }
+"0.6.0" = { url = "https://github.com/alextric234/ArchipelagoDredge/releases/download/dredge_0.6.0/dredge.apworld" }
