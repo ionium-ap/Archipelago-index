@@ -1,7 +1,7 @@
 meta_description: Spacesuit requirements and Goals be funky
 Outer Wilds:
   fuzz_constraints:
-    # __init__.py:132 - shuffle_spacesuit requires a vanilla spawn.
+    # Shuffle_spacesuit requires a vanilla spawn.
     - option: spawn
       if_value: hourglass_twins
       then: {shuffle_spacesuit: "false"}
@@ -21,17 +21,21 @@ Outer Wilds:
       if_value: "true"
       then: {shuffle_spacesuit: "false"}
 
-    # __init__.py:107 - stranger spawn requires the DLC and spacesuit false
+    # Stranger spawn requires the DLC and spacesuit false
     - option: spawn
       if_value: stranger
       then: {enable_eote_dlc: "true", shuffle_spacesuit: "false"}
 
-    # __init__.py:135 - deep_bramble spawn requires Forgotten Castaways and spacesuit false
+    # deep_bramble spawn requires Forgotten Castaways and spacesuit false
     - option: spawn
       if_value: deep_bramble
       then: {enable_fc_mod: "true", shuffle_spacesuit: "false"}
 
-    # __init__.py:109-115 - Prisoner goals require the DLC
+    - option: goal
+      if_value: song_of_the_universe
+      then: {required_friends: 0}
+    
+    # Prisoner goals require the DLC
     - option: goal
       if_value: song_of_the_stranger
       then: {enable_eote_dlc: "true"}
