@@ -1,0 +1,5 @@
+name = "Dungeon Defenders"
+home = "https://discord.com/channels/731205301247803413/1328369703810240593"
+
+[versions]
+"0.6.3" = { url = "https://github.com/Haywire32/DD1-AP/releases/download/v0.6.3/dungeon_defenders.apworld" }
