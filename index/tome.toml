@@ -1,0 +1,6 @@
+name = "Tales of Maj'Eyal"
+home = "https://discord.com/channels/731205301247803413/1396277624418078730"
+default_url = "https://github.com/rosen200/Archipelago/releases/download/v{{version}}/tome.apworld"
+
+[versions]
+"0.0.7" = {}

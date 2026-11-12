@@ -1,0 +1,6 @@
+name = "Ori and the Will of the Wisps"
+display_name = "Ori and the Will of the Wisps"
+default_url = "https://github.com/Satisha10/APwotw_release/releases/download/v{{version}}/ori_wotw.apworld"
+
+[versions]
+"0.6.5" ={}

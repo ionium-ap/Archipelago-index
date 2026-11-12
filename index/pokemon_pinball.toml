@@ -1,0 +1,6 @@
+name = "Pokemon Pinball"
+home = "https://discord.com/channels/731205301247803413/1358934774647095447"
+default_url = "https://github.com/Happyhappyism/Archipelago/releases/download/pokepinball_v{{version}}/pokemon_pinball.apworld"
+
+[versions]
+"0.0.4" = {}

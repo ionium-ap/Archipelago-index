@@ -1,0 +1,6 @@
+name = "Hyperrogue"
+home = "https://discord.com/channels/731205301247803413/1502436726440984706"
+default_url = "https://github.com/RealMelwei/hyperrogue_archipelago/releases/download/v{{version}}/hyperrogue.apworld"
+
+[versions]
+"0.2.2" = {}

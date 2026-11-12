@@ -1,0 +1,6 @@
+name = "Muck"
+home = "https://discord.com/channels/731205301247803413/1410177588361433148"
+default_url = "https://github.com/PGMProductions/Muck-for-Archipelago/releases/download/v{{version}}/muck.apworld"
+
+[versions]
+"1.2.1" = {}

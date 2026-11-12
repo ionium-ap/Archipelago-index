@@ -1,0 +1,6 @@
+name = "Dragon Quest Monsters 2"
+home = "https://discord.com/channels/731205301247803413/1469907140951933021"
+default_url = "https://github.com/Whizzlefern/Archipelago/releases/download/dqm2-v{{version}}/dqm2.apworld"
+
+[versions]
+"0.0.4" = {}

@@ -1,0 +1,6 @@
+name = "Vault Hunters"
+home = "https://discord.com/channels/731205301247803413/1255545074213720096"
+default_url = "https://github.com/Studmuffin2227/VHAPMod/releases/download/v{{version}}/VHAP.apworld"
+
+[versions]
+"1.3.0" = {}

@@ -1,0 +1,5 @@
+name = "Shellipelago"
+home = "https://discord.com/channels/731205301247803413/1517710208225378505"
+
+[versions]
+"1.15.0" = { url = "https://github.com/ethentianknight/shellipelago/releases/download/1.15/shellipelago.apworld" }

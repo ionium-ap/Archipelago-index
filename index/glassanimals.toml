@@ -1,0 +1,5 @@
+name = "Glass Animals Discography"
+disabled = true
+# The apworld author explicitly requested to be removed from the index (PR#818)
+
+[versions]

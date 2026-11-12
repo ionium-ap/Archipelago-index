@@ -1,0 +1,6 @@
+name = "Scorpion Swamp"
+home = "https://discord.com/channels/731205301247803413/1537594907152359516"
+default_url = "https://github.com/LegendofFantasy/Archipelago/releases/download/scorpion-swamp-{{version}}/scorpion_swamp.apworld"
+
+[versions]
+"1.0.1" = {}

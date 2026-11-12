@@ -1,0 +1,6 @@
+name = "Ender Magnolia"
+home = "https://discord.com/channels/731205301247803413/1539709117336125500"
+default_url = "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/endermagnolia-v0.1.8/endermagnolia.apworld"
+
+[versions]
+"0.1.8" = {}

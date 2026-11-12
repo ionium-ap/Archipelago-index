@@ -1,0 +1,6 @@
+name = "Hello Kitty: Roller Rescue"
+home = "https://discord.com/channels/731205301247803413/1522586109207515146"
+default_url = "https://github.com/richarm4/Archipelago/releases/download/hkrr-{{version}}/hkrr.apworld"
+
+[versions]
+"0.2.1" = {}

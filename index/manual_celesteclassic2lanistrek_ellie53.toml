@@ -1,0 +1,6 @@
+name = "Manual_CelesteClassic2LanisTrek_Ellie53"
+display_name = "Manual: Celeste Classic 2: Lani's Trek"
+home = "https://discord.com/channels/1097532591650910289/1550976972744564796"
+
+[versions]
+"1.0.0" = {url = "https://github.com/Ellie53real/ellies-manuals/releases/download/LanisTrek-v1.0.0/manual_celesteclassic2lanistrek_ellie53.apworld"}

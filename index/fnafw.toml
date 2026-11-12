@@ -1,5 +1,7 @@
 name = "FNaFW"
 home = "https://discord.com/channels/731205301247803413/1104088448127729704"
+#The old version is very broken and is disabled until a newer version is accepted
+disabled = true
 
 [versions]
 # https://discord.com/channels/731205301247803413/1104088448127729704/1458251596772282522

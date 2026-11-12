@@ -1,0 +1,5 @@
+name = "Celeste Classic"
+home = "https://discord.com/channels/731205301247803413/1173902455927492631"
+
+[versions]
+"0.2.0" = { url = "https://github.com/NyanMC/ap-celesteclassic/releases/download/0.2.0/celeste_classic.apworld" }

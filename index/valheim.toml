@@ -1,0 +1,6 @@
+name = "Valheim"
+home = "https://discord.com/channels/731205301247803413/1336494642237018153"
+default_url = "https://github.com/xyzzy44/ValheimArchipelagoRandomizer/releases/download/{{version}}/valheim.apworld"
+
+[versions]
+"0.2.6" = {}

@@ -1,0 +1,6 @@
+name = "Manual_JetskiRush_Ellie53"
+display_name = "Manual: Jetski Rush"
+home = "https://discord.com/channels/1097532591650910289/1541452700770639993"
+
+[versions]
+"1.0.0" = {url = "https://github.com/Ellie53real/ellies-manuals/releases/download/JetRush-v1.0.0/manual_jetskirush_ellie53.apworld"}

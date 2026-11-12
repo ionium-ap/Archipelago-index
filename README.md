@@ -32,6 +32,49 @@ When the author uses tags that are semver compatible, it's possible to add a `de
 `default_url = "https://github.com/foo/bar/releases/download/{{version}}/foo.apworld` and to specify versions like this: `"0.1.0" = {}`.
 This makes it easier to update and can be used to automatically fetch newer versions so it's the prefered way of doing things.
 
+## Archipelago versions
+
+As of the release of Archipelago 0.6.8, the index supports multiple versions at once. The AP versions in scope ("base versions") are listed under `[bases]` in [`index.toml`](index.toml), and the oldest of them is its `archipelago_version`, currently `0.6.7`.
+
+A release listed in `[versions]` is declared to work on all base versions unless overridden (see below), and it **MUST** work on the oldest. Anything that depends on the Archipelago version goes in a separate `[releases]` section:
+
+- A release that works on the oldest version but not on a newer one stays in `[versions]` and also goes in `[releases]` with a `max_ap_version`:
+
+  ```toml
+  [versions]
+  "1.1.0" = {}
+
+  [releases]
+  "1.1.0" = { max_ap_version = "0.6.7" }
+  ```
+
+- A release that needs a newer version goes in `[releases]` only, with a `min_ap_version`. It takes its `url` there, or uses `default_url`:
+
+  ```toml
+  [releases]
+  "1.2.0" = { min_ap_version = "0.6.8" }
+  ```
+
+- `min_ap_version` and `max_ap_version` are both inclusive.
+- An entry in `[versions]` **MUST NOT** take a second key, so never put a constraint next to a `url` there. Lobbies running older code only read `[versions]`, and they drop the `url` of an entry that has anything else in it.
+- A world for which every release needs a newer version gets no entry in `[versions]`. Mark it `disabled = true` at the top, which is all that older lobbies see, and switch it back on for the versions that have it:
+
+  ```toml
+  disabled = true
+
+  [releases]
+  "1.0.0" = { min_ap_version = "0.6.8" }
+
+  [base.">=0.6.8"]
+  disabled = false
+  ```
+
+CI runs an added release on each Archipelago version it claims to work on. When it passes on one and fails on another, the CI comment names the constraint that would fit.
+
+The full format is described in the [apwm README](https://github.com/ionium-ap/Archipelago-lobby/blob/main/apwm/README.md#several-archipelago-versions).
+
+## Running some of the tests local in your browser
+We recently created a home to do our Index testing here: https://aptests.ionium.fyi/, if you wanted to do quick testing for worlds without having to setup the fuzzer yourself!
 
 # Criteria for inclusion
 
@@ -43,7 +86,8 @@ This makes it easier to update and can be used to automatically fetch newer vers
 - The apworld must not contain big unknown executable binary blobs or depend on any.
 - The apworld must not contain obvious flaws that will make life difficult for anyone trying to generate large multiworlds. That includes direct usage of the random module, obvious logic flaws, forced interactivity during generation, or test failures that are deemed problematic.
 - The apworld must not make any use of remote resources during generation. That includes checking the internet for the latest release or similar checks.
-- The apworld must not require a ROM to generate. Apworlds already present in the index are exempt from this, but I will not accept any new ones.
+- The apworld must not require a ROM to generate.
+- The apworld must pass all core unit tests.
 - The generation failure rate calculated using Eijebong's [fuzzer](https://github.com/ionium-ap/Archipelago-fuzzer) must be below 1% (not counting `OptionError`s).
   - To help removing failures that would be considered restrictive starts, those rates will be calculated with a second [world](https://github.com/ionium-ap/empty-apworld) present that has 100 free locations. Any failures that remain may indicate a logic issue.
   - To help check for other logical issues that could prevent multiworlds from generating, we will also be checking against the following Fuzzer tests. These must fall within the 1% rule:

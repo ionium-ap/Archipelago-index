@@ -5,4 +5,5 @@ default_url = "https://github.com/Demorck/ClairObscur_APWorld/releases/download/
 tags = ["ad"]
 
 [versions]
-"0.2.1" ={}
+"0.2.1" = {}
+"0.4.3" = {}

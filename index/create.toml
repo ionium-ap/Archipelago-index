@@ -1,0 +1,5 @@
+name = "Create"
+home = "https://github.com/mariokirby1703/Lumas-Archipelago"
+
+[versions]
+"0.1.3" = { url = "https://github.com/mariokirby1703/Lumas-Archipelago/releases/download/create_v0.1.3/create.apworld" }

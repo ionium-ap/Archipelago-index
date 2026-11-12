@@ -1,0 +1,8 @@
+name = "Sonic Colours (Wii)"
+home = "https://github.com/mariokirby1703/Lumas-Archipelago/tree/Sonic-Colours-Wii-AP"
+default_url = "https://github.com/mariokirby1703/Lumas-Archipelago/releases/download/sonic_colours_v{{version}}/sonic_colours_wii.apworld"
+
+[versions]
+"0.1.0" = {}
+"0.2.0" = {}
+"0.2.1" = {}

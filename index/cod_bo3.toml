@@ -1,5 +1,5 @@
 name = "Black Ops 3 - Zombies"
-home = "https://discord.com/channels/1085716850370957462/1205200487175950386"
+home = "https://discord.com/channels/1345801058609270794/1536575496069054504"
 tags = ["ad"]
 default_url = "https://github.com/colin969/bo3_archipelago/releases/download/{{version}}/cod_bo3.apworld"
 
@@ -12,3 +12,4 @@ default_url = "https://github.com/colin969/bo3_archipelago/releases/download/{{v
 "0.5.4" = {}
 "0.5.7" = {}
 "0.5.8" = {}
+"0.5.11" = {}

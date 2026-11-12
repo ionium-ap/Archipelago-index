@@ -1,0 +1,6 @@
+name = "Sneak King"
+home = "https://discord.com/channels/731205301247803413/1390463536198713467"
+default_url = "https://github.com/jamesbrq/SneakKingAP/releases/download/v{{version}}/sneak_king.apworld"
+
+[versions]
+"0.1.0" = {}

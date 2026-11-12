@@ -1,0 +1,7 @@
+name = "CorruObserver"
+display_name = "corru.observer"
+home = "https://discord.com/channels/731205301247803413/1440076408482435215"
+default_url = "https://github.com/Adrthegamedev/ArchipelagoCorruObserver/releases/download/v{{version}}/corruobserver.apworld"
+
+[versions]
+"0.1.4" = {}

@@ -1,0 +1,44 @@
+meta_description: >-
+  These constraints cover the refusals that are expressible here: an
+  ending listed as an objective, an objective whose own feature is
+  switched off, a start with no solvable tutorial puzzle, in_order towers
+  with no way to open the first monument, and the big_wall ending beside
+  the Gauntlet's locked stages.
+
+Big Walk:
+  # The empty list makes random_objectives draw from the pool the world
+  # builds from the objectives its other options allow, which keeps every
+  # objective reachable without listing one whose feature is off.
+  objectives: []
+
+  fuzz_constraints:
+    # With lock_puzzle_needs on, the tutorial needs a puzzle that can be solved
+    # from the start: either a foothold listed in start_with_puzzle_needs, or
+    # one drawn for the seed. Keyed on lock_puzzle_needs so the draw toggle
+    # keeps its full range when the needs are not locked.
+    - option: lock_puzzle_needs
+      if_value: "true"
+      then:
+        start_with_random_puzzle_need: "true"
+
+    # in_order opens the monuments in sequence and has nothing to open the
+    # first one, so that mode needs the first tower already open. Keyed on
+    # tower_mode so first_tower_open stays free to change for all_open and
+    # by_item.
+    - option: tower_mode
+      if_value: in_order
+      then:
+        first_tower_open: "true"
+
+    # The big_wall ending stops the run at the chapel, before the Silent
+    # Gauntlet, whose locked stages would then hold checks for nothing. Keyed on
+    # the goal so gauntlet_mode is free to set either value for every other ending.
+    # The goal accepts both of these values to mean the same thing.
+    - option: goal
+      if_value: big_wall
+      then:
+        gauntlet_mode: vanilla
+    - option: goal
+      if_value: ending
+      then:
+        gauntlet_mode: vanilla

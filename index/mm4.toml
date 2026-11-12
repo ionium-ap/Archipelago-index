@@ -1,0 +1,6 @@
+name = "Mega Man 4"
+home = "https://discord.com/channels/731205301247803413/1538333058074284032"
+default_url = "https://github.com/Silvris/Archipelago/releases/download/mm4_{{version}}/mm4.apworld"
+
+[versions]
+"0.1.1" = {}

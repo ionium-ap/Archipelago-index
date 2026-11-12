@@ -1,0 +1,6 @@
+name = "GBAPQuest"
+home = "https://discord.com/channels/731205301247803413/1532277772951486585"
+default_url = "https://github.com/Meliacci/Archipelago/releases/download/GBAPQuestV{{version}}/gbapquest.apworld"
+
+[versions]
+"0.1.0" = {}

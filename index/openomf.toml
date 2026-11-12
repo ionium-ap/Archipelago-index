@@ -1,0 +1,6 @@
+name = "One Must Fall: 2097"
+home = "https://discord.com/channels/731205301247803413/1413746415078871041"
+default_url = "https://github.com/stubobis1/archipelago-openomf/releases/download/omf-{{version}}/openomf.apworld"
+
+[versions]
+"0.0.5" = {}

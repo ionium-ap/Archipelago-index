@@ -1,0 +1,17 @@
+Pokemon HeartGold and SoulSilver:
+  starter_whitelist: []
+  starter_blacklist: []
+  encounter_species_blacklist: []
+  trainer_party_blacklist: []
+  roamer_blacklist: []
+  dexsanity:
+    0: 50
+    50: 50
+    full: 50
+  in_logic_evolution_methods: ['level', 'use_item', 'held_item', 'time', 'location', 'happiness']
+  dexsanity_whitelist: []
+  dexsanity_blacklist: []
+  dexsanity_required: []
+  trainersanity_whitelist: []
+  trainersanity_blacklist: []
+  trainersanity_required: []

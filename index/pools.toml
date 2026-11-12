@@ -1,0 +1,6 @@
+name = "POOLS"
+home = "https://discord.com/channels/731205301247803413/1539152495463374908"
+default_url = "https://github.com/SerpentAI/Archipelago/releases/download/pools-v{{version}}/pools.apworld"
+
+[versions]
+"1.0.0" = {}
