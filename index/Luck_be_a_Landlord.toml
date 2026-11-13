@@ -4,3 +4,4 @@ default_url = "https://github.com/Littlemuzz5/Ionium-Luck-be-a-Landlord/releases
 
 [versions]
 "1.0.0" = { url = "https://github.com/Littlemuzz5/Ionium-Luck-be-a-Landlord/releases/download/1.0/Luck_be_a_Landlord.apworld" }
+"1.3.3" = { url = "https://github.com/Littlemuzz5/Luck-Be-a-Landlord-AP/releases/download/Beta_1.3.3/luck_be_a_landlord.apworld" }
