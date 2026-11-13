@@ -1,0 +1,6 @@
+name = "Recettear: An Item Shop's Tale"
+home = "https://discord.com/channels/731205301247803413/1434321415921860768"
+default_url = "https://github.com/AurelicButter/Recettear-Archipelago/releases/download/v{{version}}/recettear.apworld"
+
+[versions]
+"0.1.1" = {}
