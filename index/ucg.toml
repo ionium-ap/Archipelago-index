@@ -1,0 +1,6 @@
+name = "Uncanny Cat Golf"
+home = "https://discord.com/channels/731205301247803413/1538750669043929108"
+default_url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-UCG/releases/download/{{version}}/ucg.apworld"
+
+[versions]
+"1.4.1" = { url = "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-UCG/releases/download/1.4.1/ucg.apworld" }
