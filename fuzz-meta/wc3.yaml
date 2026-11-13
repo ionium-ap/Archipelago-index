@@ -1,0 +1,7 @@
+# Pin the hero-name fields to valid names. Each one takes free text that the
+# world checks against the character set its font can render, which a randomly
+# generated string cannot satisfy. Every other option stays randomized.
+Warcraft 3:
+  paladin_arthas_name: Arthas
+  jaina_name: Jaina
+  muradin_bronzebeard_name: Muradin Bronzebeard
