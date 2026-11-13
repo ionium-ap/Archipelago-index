@@ -1,6 +1,7 @@
 name = "Warcraft 3"
 home = "https://discord.com/channels/731205301247803413/1191314475056365609"
 default_url = "https://github.com/MatthewMarinets/war3-ap-maps/releases/download/0.0.1-release/wc3.apworld"
+disabled = true # No fuzzer coverage; should not have been added in the first place
 
 [versions]
 "0.0.1" = {}

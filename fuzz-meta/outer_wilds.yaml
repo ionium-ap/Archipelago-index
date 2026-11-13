@@ -1,0 +1,50 @@
+meta_description: Spacesuit requirements and Goals be funky
+Outer Wilds:
+  fuzz_constraints:
+    # Shuffle_spacesuit requires a vanilla spawn.
+    - option: spawn
+      if_value: hourglass_twins
+      then: {shuffle_spacesuit: "false"}
+    - option: spawn
+      if_value: timber_hearth
+      then: {shuffle_spacesuit: "false"}
+    - option: spawn
+      if_value: brittle_hollow
+      then: {shuffle_spacesuit: "false"}
+    - option: spawn
+      if_value: giants_deep
+      then: {shuffle_spacesuit: "false"}
+    - option: spawn
+      if_value: random_non_vanilla
+      then: {shuffle_spacesuit: "false"}
+    - option: dlc_only
+      if_value: "true"
+      then: {shuffle_spacesuit: "false"}
+
+    # Stranger spawn requires the DLC and spacesuit false
+    - option: spawn
+      if_value: stranger
+      then: {enable_eote_dlc: "true", shuffle_spacesuit: "false"}
+
+    # deep_bramble spawn requires Forgotten Castaways and spacesuit false
+    - option: spawn
+      if_value: deep_bramble
+      then: {enable_fc_mod: "true", shuffle_spacesuit: "false"}
+
+    - option: goal
+      if_value: song_of_the_universe
+      then: {required_friends: 0}
+    
+    # Prisoner goals require the DLC
+    - option: goal
+      if_value: song_of_the_stranger
+      then: {enable_eote_dlc: "true"}
+    - option: goal
+      if_value: song_of_six
+      then: {enable_eote_dlc: "true"}
+    - option: goal
+      if_value: song_of_seven
+      then: {enable_eote_dlc: "true"}
+    - option: goal
+      if_value: echoes_of_the_eye
+      then: {enable_eote_dlc: "true"}

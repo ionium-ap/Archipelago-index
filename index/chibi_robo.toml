@@ -6,3 +6,5 @@ default_url = "https://github.com/EverydaySimpleDev/Archipelago/releases/downloa
 "1.2.6" = {}
 "1.3.0" = {}
 "1.3.1" = {}
+# format changed, worth noting that maybe future releases use a new URL and the versions above get removed...
+"1.3.3" = { url = "https://github.com/EverydaySimpleDev/Archipelago/releases/download/chibi-robo-1.3.3/chibi_robo.apworld" }
