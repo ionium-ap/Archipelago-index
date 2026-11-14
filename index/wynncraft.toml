@@ -1,7 +1,7 @@
 name = "Wynncraft"
 home = "https://discord.com/channels/731205301247803413/1492950679638118481"
-# Temporary fork to fix fuzzing issues for now, original author is aware and has given permission.
-default_url = "https://github.com/Omeeeeega/Wynncraft-APWorld/releases/download/v{{version}}/wynncraft.apworld"
+default_url = "https://github.com/EpicPuppy613/Wynncraft-APWorld/releases/download/v{{version}}/wynncraft.apworld"
 
 [versions]
-"0.4.5" = {}
+"0.4.5" = { url = "https://github.com/Omeeeeega/Wynncraft-APWorld/releases/download/v0.4.5/wynncraft.apworld" }
+"0.4.7" = {}
