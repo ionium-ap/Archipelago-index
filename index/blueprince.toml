@@ -1,0 +1,10 @@
+name = "Blue Prince"
+home = "https://github.com/BatmenzDW/Archipelago"
+default_url = "https://github.com/BatmenzDW/Archipelago/releases/download/v{{version}}/blueprince.apworld"
+disabled = true
+
+[releases]
+"0.1.4" = {min_ap_version = "0.6.8"}
+
+[base.">=0.6.8"]
+disabled = false
