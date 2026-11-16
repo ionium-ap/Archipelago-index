@@ -5,3 +5,4 @@ default_url = "https://github.com/Panguu/Archipelago-RaCSM/releases/download/rac
 [versions]
 "0.5.1" = {}
 "0.5.3" = {}
+"0.5.8" = {}
