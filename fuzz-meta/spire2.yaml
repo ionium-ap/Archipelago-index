@@ -4,7 +4,7 @@
 Slay the Spire II:
   fuzz_constraints:
     - option: characters
-      ensure_any: [Ironclad, Silent, Defect, Regent, Necrobinder]
+      ensure_any: [Ironclad, Silent, Defect, Regent, Necrobinder, Fool]
     - option: lock_characters
       if_value: locked_fixed
       then:
