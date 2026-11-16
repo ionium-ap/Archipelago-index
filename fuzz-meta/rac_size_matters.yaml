@@ -1,0 +1,55 @@
+meta_description: >-
+  Steers the fuzz away from option combinations rac_size_matters rejects with an OptionError
+  in generate_early. Each rule mirrors one rejection; everything else stays random.
+'Ratchet & Clank: Size Matters':
+  fuzz_constraints:
+    # world.py _validate_weapon_options: needs a long-range projectile weapon that survives
+    # NG+ Items filtering (RYNO is NG+-only, so it is left out here).
+    - option: enabled_weapons
+      ensure_any: [Lacerator, Shock Rocket, Sniper Mine, Laser Tracer]
+    # world.py _validate_skin_options: multiplayer skins (mp_ratchet and later) need
+    # experimental_skins on.
+    - option: experimental_skins
+      if_value: 'false'
+      then:
+        starting_skin: {default: 1, pirate_ratchet: 1, godzilla_ratchet: 1, trash_ratchet: 1,
+                        swim_ratchet: 1, kanga_ratchet: 1, hiro_ratchet: 1}
+    # goals.py validate_goals: All Skill Points needs Skill Points easy or hard.
+    - option: goal
+      if_value: all_skill_points
+      then:
+        skill_points: {easy: 1, hard: 1}
+    # goals.py validate_goals: All Clank Challenges needs Clank Challenges on and at least one
+    # group selected; any single group carries locations, but an empty set has none.
+    - option: goal
+      if_value: all_clank_challenges
+      then:
+        clank_challenges: {item_challenges: 1, all: 1}
+      then_include:
+        clank_challenge_groups: [Demolition Derby]
+    # Same two checks for Pick and Mix: drop a goal from the mix when its option is off.
+    # The fuzzer writes a Choice's `off` as either 'off' or 'false'.
+    - option: skill_points
+      if_value: 'off'
+      then_exclude:
+        pick_and_mix_goals: [all_skill_points]
+    - option: skill_points
+      if_value: 'false'
+      then_exclude:
+        pick_and_mix_goals: [all_skill_points]
+    - option: clank_challenges
+      if_value: 'off'
+      then_exclude:
+        pick_and_mix_goals: [all_clank_challenges]
+    - option: clank_challenges
+      if_value: 'false'
+      then_exclude:
+        pick_and_mix_goals: [all_clank_challenges]
+    - option: goal
+      if_value: pick_and_mix
+      then_include:
+        clank_challenge_groups: [Demolition Derby]
+    # goals.py validate_goals: Pick and Mix needs at least one goal (only read when goal is
+    # pick_and_mix).
+    - option: pick_and_mix_goals
+      ensure_any: [defeat_otto]
