@@ -1,0 +1,6 @@
+name = "FTL: Faster Than Light"
+home = "https://discord.com/channels/731205301247803413/1252009877551841290"
+default_url = "https://github.com/TheLiloji/FTLArchipelago/releases/download/v{{version}}/ftl.apworld"
+
+[versions]
+"0.6.0" = {}
