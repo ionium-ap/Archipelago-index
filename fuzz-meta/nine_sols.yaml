@@ -1,0 +1,11 @@
+meta_description: >-
+  Splits the jade cost range so that jade_cost_max is never below
+  jade_cost_min, which generate_early refuses outright. Drawing the minimum from
+  the bottom half and the maximum from the top half keeps both options varying
+  and every pair they produce valid. Every other option stays random.
+
+'Nine Sols':
+  # __init__.py generate_early: a jade_cost_max below jade_cost_min is an OptionError.
+  # The two halves meet at 5, so any minimum drawn is at or below any maximum drawn.
+  jade_cost_min: random-range-0-5
+  jade_cost_max: random-range-5-10
