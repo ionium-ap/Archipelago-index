@@ -5,3 +5,4 @@ default_url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-
 [versions]
 "20.1.7" = {}
 "20.1.13" = {}
+"26.2.3" = { url = "https://github.com/Ishigh1/Oracle-of-Seasons-apworld/releases/download/oos-26.2.3/tloz_oos.apworld" }
