@@ -1,0 +1,6 @@
+name = "Day of the Tentacle"
+home = "https://discord.com/channels/731205301247803413/1552801856277975110"
+default_url = "https://github.com/SerpentAI/Archipelago/releases/download/dott-v{{version}}/day_of_the_tentacle.apworld"
+
+[versions]
+"1.0.0" = {}

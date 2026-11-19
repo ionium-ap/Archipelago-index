@@ -3,15 +3,22 @@ name: Post-merge GitLab publish trigger
 # Fires the GitLab `MODE=publish` pipeline after each main-branch push has
 # been mirrored to GitLab. That pipeline runs `apwm update` against the
 # freshly-merged main, commits the refreshed index.lock back here (with
-# `[skip ci]`), then fires the lobby's /worlds/refresh endpoint.
+# `[skip publish]`), then fires the lobby's /worlds/refresh endpoint.
 #
 # Chained off `Mirror to GitLab` via `workflow_run` so we never trigger the
 # publish job before its required commit has landed on the GitLab mirror
 # (without the chain, the publish job sometimes fetched stale main).
 #
-# Skips when the head commit was authored by the bot itself (by `[skip ci]`
-# marker), so the lockfile-update commit doesn't trigger a follow-on
-# publish run.
+# Skips when the head commit was authored by the bot itself (by the
+# `[skip publish]` marker), so the lockfile-update commit doesn't trigger a
+# follow-on publish run.
+#
+# The marker is `[skip publish]` and must not become `[skip ci]`: GitHub
+# treats `[skip ci]`, `[ci skip]`, `[no ci]`, `[skip actions]` and
+# `[actions skip]` as magic tokens that skip every push-triggered workflow,
+# which would skip `Mirror to GitLab` for the bot's own commit and leave the
+# GitLab mirror permanently one commit behind. This gate reads the message
+# itself, so it does not need GitHub's built-in skipping at all.
 #
 # Required secret in this repo:
 #   GITLAB_TRIGGER_TOKEN  — same token used by trigger.yml; pipeline trigger
@@ -46,11 +53,13 @@ jobs:
   trigger-publish:
     runs-on: ubuntu-latest
     # Two gates, OR'd over the two trigger types:
-    #   - workflow_dispatch: manual retry; no upstream check, no [skip ci] check.
+    #   - workflow_dispatch: manual retry; no upstream check, no marker check.
     #   - workflow_run: only proceed if the mirror succeeded AND the commit
     #     it mirrored isn't our own bot commit. Otherwise we'd loop:
     #       merge → mirror → publish → bot commit → mirror → ...
-    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && !contains(github.event.workflow_run.head_commit.message, '[skip ci]')) }}
+    #     The bot commit now does get mirrored (that is the point), so this
+    #     workflow still fires for it and stops here instead.
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && !contains(github.event.workflow_run.head_commit.message, '[skip publish]')) }}
     steps:
       - name: Trigger GitLab pipeline (MODE=publish)
         env:

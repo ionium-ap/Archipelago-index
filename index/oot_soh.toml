@@ -10,3 +10,4 @@ display_name = "Ocarina of Time: Ship of Harkinian"
 "1.2.1" = {}
 "1.3.0" = {}
 "1.4.1" = {}
+"1.4.2" = { url = "https://github.com/HarbourMasters/Archipelago-SoH/releases/download/Soh_1.4.2/oot_soh.apworld" }

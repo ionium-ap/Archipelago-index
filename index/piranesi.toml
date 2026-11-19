@@ -1,0 +1,6 @@
+name = "Piranesi Restoration Project"
+display_name = "Lunati: Piranesi Restoration Project"
+home = "https://discord.com/channels/731205301247803413/1441588059870330900"
+
+[versions]
+"1.0.0" = { url = "https://gitlab.com/sztest/piranesi-archipelago/-/raw/9043cdd10c57f5b6c3d950d866cbb256a8ca9108/piranesi.apworld?inline=false" }

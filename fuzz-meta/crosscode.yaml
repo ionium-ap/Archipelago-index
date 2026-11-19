@@ -1,0 +1,25 @@
+CrossCode:
+  fuzz_constraints:
+    - option: chest_key_shuffle
+      if_value: "own_dungeons"
+      then:
+        chest_lock_randomization: 'false'
+    - option: chest_key_shuffle
+      if_value: "original_dungeons"
+      then:
+        chest_lock_randomization: 'false'
+    - option: goal
+      if_value: "observatory"
+      then:
+        quest_rando: 'true'
+    - option: goal
+      if_value: "diorbis"
+      then:
+        enable_dlc: 'true'
+  triggers:
+    - option_category: CrossCode
+      option_name: enable_dlc
+      option_result: 'false'
+      options:
+        CrossCode:
+          botanics_completion_amount: random-range-1-77

@@ -1,0 +1,6 @@
+name = "Dead Cells"
+home = "https://discord.com/channels/731205301247803413/1552826784544850041"
+default_url = "https://github.com/Maxlamenace572/DeadCellsArchipelago/releases/download/{{version}}/dead_cells.apworld"
+
+[versions]
+"0.2.0" = {}

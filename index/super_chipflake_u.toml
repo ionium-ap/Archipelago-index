@@ -1,0 +1,6 @@
+name = "Super Chipflake Ü"
+home = "https://discord.com/channels/731205301247803413/1464987540850217164"
+default_url = "https://github.com/Max-G4/Chipflake_AP/releases/download/tag1/super_chipflake_u_{{version}}.apworld"
+
+[versions]
+"0.1.0" = {}

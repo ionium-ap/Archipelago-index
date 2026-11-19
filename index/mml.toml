@@ -1,0 +1,6 @@
+name = "Mega Man Legends"
+home = "https://discord.com/channels/731205301247803413/1101576751815082139"
+default_url = "https://github.com/functorial/MMLAP/releases/download/v{{version}}/mml.apworld"
+
+[versions]
+"0.3.2" = {}

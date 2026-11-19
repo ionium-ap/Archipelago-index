@@ -1,0 +1,6 @@
+name = "Dorfromantik"
+home = "https://discord.com/channels/731205301247803413/1493574083147989094"
+default_url = "https://github.com/Str8UpWHITE64/Dorfromantik-AP/releases/download/{{version}}/dorfromantik.apworld"
+
+[versions]
+"0.1.0" = {}
