@@ -4,3 +4,4 @@ default_url = "https://github.com/Poke714/Archipelago/releases/download/v0.1.0/p
 
 [versions]
 "0.1.0" = {}
+"0.6.0" = {}
