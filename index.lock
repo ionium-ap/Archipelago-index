@@ -411,6 +411,7 @@
 
 [dead_cells]
 "0.2.0" = "3495a7cd267fb1085c00c9fc1c00cbe2f09f7313bb1da6f447ef730a2f0d835c"
+"0.2.1" = "6c1b27d4b7938e1236716c5db2f1b1fd3a7b25192853bf66b6ba1f840f75c7ae"
 
 [deltarune]
 "0.2.7" = "f25fa60197dcf0bdfde7d6d0da4b3fc993c4203bb460fb47aa0de2f9b7e0b6b0"
