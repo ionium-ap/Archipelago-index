@@ -1,0 +1,50 @@
+meta_description: Steers away from the combinations LB1World.validate_yaml rejects with OptionError (__init__.py:173-203).
+Lego Batman The Video Game:
+  # validate_yaml: high_multiplier_price_minimum < low_multiplier_price_minimum is rejected.
+  # Disjoint ranges keep both random while guaranteeing high >= low.
+  low_multiplier_price_minimum: random-range-10-5000000
+  high_multiplier_price_minimum: random-range-5000000-10000000
+  fuzz_constraints:
+    # validate_yaml: Minikit goal, and Shuffle Hush & Ras, both require minikit_sanity.
+    - option: minikit_sanity
+      if_value: 'false'
+      then:
+        EndGoal: levels_beaten
+        shuffle_hush_and_ras: 'false'
+    # validate_yaml: starting levels may not be vehicle-only (and an empty list fails the count check).
+    - option: starting_hero_level_options
+      ensure_any:
+        - You can Bank on Batman
+        - An Icy Reception
+        - A Poisonous Appointment
+        - The Face-Off
+        - There She Goes Again
+        - Under the City
+        - Zoo's Company
+        - Penguin's Lair
+        - Joker's Home Turf
+        - Little Fun at the Big Top
+        - In the Dark Night
+        - To the Top of the Tower
+    - option: starting_villain_level_options
+      ensure_any:
+        - The Riddler Makes a Withdrawal
+        - On the Rocks
+        - Green Fingers
+        - An Enterprising Theft
+        - Breaking Blocks
+        - Rockin' the Docks
+        - Stealing the Show
+        - Harbouring a Grudge
+        - A Daring Rescue
+        - Arctic World
+        - A Surprise for the Commissioner
+        - Biplane Blast
+        - The Joker's Masterpiece
+        - The Lure of the Night
+        - Dying of Laughter
+    # validate_yaml: starting level count may not exceed the number of starting level options.
+    - option: starting_hero_level_count
+      max_count_of: starting_hero_level_options
+    - option: starting_villain_level_count
+      max_count_of: starting_villain_level_options
