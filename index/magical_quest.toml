@@ -4,3 +4,4 @@ default_url = "https://github.com/Abimo25/MagicalQuestAP/releases/download/v{{ve
 
 [versions]
 "0.1.0" = {}
+"0.2.0" = {}
