@@ -1,29 +1,34 @@
-meta_description: Steers away from the combinations LB1World.validate_yaml rejects with OptionError (__init__.py:173-203).
+meta_description: Steers away from the combinations LB1World.validate_yaml rejects with OptionError (__init__.py:173-203), and nothing else.
 Lego Batman The Video Game:
-  # validate_yaml: high_multiplier_price_minimum < low_multiplier_price_minimum is rejected.
-  # Disjoint ranges keep both random while guaranteeing high >= low.
-  low_multiplier_price_minimum: random-range-10-5000000
-  high_multiplier_price_minimum: random-range-5000000-10000000
+  # validate_yaml (__init__.py:176): high_multiplier_price_minimum < low_multiplier_price_minimum is rejected.
+  # Disjoint ranges keep high >= low. The split sits inside the shop's price range (300 to 5,000,000 after
+  # cheaper_shops), so both the low- and the high-multiplier branches of HasMultiplier (Rules.py:578-583) get rolled.
+  low_multiplier_price_minimum: random-range-10-50000
+  high_multiplier_price_minimum: random-range-50000-1000000
   fuzz_constraints:
-    # validate_yaml: Minikit goal, and Shuffle Hush & Ras, both require minikit_sanity.
+    # validate_yaml (__init__.py:174, 182): the Minikit goal, and Shuffle Hush & Ras, both require minikit_sanity.
     - option: minikit_sanity
       if_value: 'false'
       then:
         EndGoal: levels_beaten
         shuffle_hush_and_ras: 'false'
-    # validate_yaml: starting levels may not be vehicle-only (and an empty list fails the count check).
+    # validate_yaml (__init__.py:198-203) rejects only when BOTH pools are vehicle-only. A non-vehicle villain
+    # level is enough to avoid that; the hero pool only has to be non-empty, so vehicle-only hero pools stay covered.
     - option: starting_hero_level_options
       ensure_any:
         - You can Bank on Batman
         - An Icy Reception
+        - Two-Face Chase
         - A Poisonous Appointment
         - The Face-Off
         - There She Goes Again
+        - Batboat Battle
         - Under the City
         - Zoo's Company
         - Penguin's Lair
         - Joker's Home Turf
         - Little Fun at the Big Top
+        - Flight of the Bat
         - In the Dark Night
         - To the Top of the Tower
     - option: starting_villain_level_options
@@ -35,15 +40,13 @@ Lego Batman The Video Game:
         - Breaking Blocks
         - Rockin' the Docks
         - Stealing the Show
-        - Harbouring a Grudge
         - A Daring Rescue
         - Arctic World
         - A Surprise for the Commissioner
-        - Biplane Blast
         - The Joker's Masterpiece
         - The Lure of the Night
         - Dying of Laughter
-    # validate_yaml: starting level count may not exceed the number of starting level options.
+    # validate_yaml (__init__.py:178-181): a starting level count may not exceed its pool.
     - option: starting_hero_level_count
       max_count_of: starting_hero_level_options
     - option: starting_villain_level_count
