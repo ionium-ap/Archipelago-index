@@ -1,0 +1,6 @@
+name = "Dinobones Tidy Up the Museum"
+home = "https://discord.com/channels/731205301247803413/1553919817872965663"
+default_url = "https://github.com/SWCreeperKing/DinoBonipelago/releases/download/v{{version}}/dinobones_tidy_up_the_museum.apworld"
+
+[versions]
+"0.1.0" = {}

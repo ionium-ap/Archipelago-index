@@ -1,0 +1,6 @@
+name = "Pokemon Ranger (Quest)"
+home = "https://discord.com/channels/731205301247803413/1476751710801362995"
+default_url = "https://github.com/BlastSlimey/Archipelago/releases/download/pkmn_ranger_quest_{{version}}/pkmn_ranger_quest.apworld"
+
+[versions]
+"1.0.5" = {}

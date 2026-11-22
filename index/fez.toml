@@ -1,0 +1,6 @@
+name = "Fez"
+home = "https://discord.com/channels/731205301247803413/1210606519297773638"
+default_url = "https://github.com/nhyldmar/fez-ap/releases/download/v{{version}}/fez.apworld"
+
+[versions]
+"0.6.1" = {}

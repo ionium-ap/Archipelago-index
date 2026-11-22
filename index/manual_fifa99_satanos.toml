@@ -1,0 +1,6 @@
+name = "Manual_Fifa99_Satanos"
+display_name = "Manual: FIFA 99"
+home = "https://discord.com/channels/1097532591650910289/1556327876511670272"
+
+[versions]
+"1.0.0" = { url = "https://github.com/satanosskm/Archipelago-Manual-for-Fifa-99-PS1/releases/download/1.0/manual_fifa99_satanos.apworld" }

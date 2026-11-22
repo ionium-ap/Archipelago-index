@@ -3,3 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1058549067107532840"
 
 [versions]
 "0.2.0" = {url = "https://github.com/GreenPower713/Archipelago/releases/download/v0.2.0/ktane.apworld" }
+"0.3.0+c" = { url = "https://github.com/GreenPower713/Archipelago/releases/download/v0.3.0c/ktane.apworld" }

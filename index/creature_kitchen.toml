@@ -1,0 +1,5 @@
+name = "Creature Kitchen"
+home = "https://discord.com/channels/731205301247803413/1470750017861058666"
+
+[versions]
+"0.5.0" = { url = "https://github.com/stroodlydoodles/Creature-Kitchen-Randomizer-Mod/releases/download/Archipelago/creature_kitchen.apworld" }

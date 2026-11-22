@@ -1,0 +1,6 @@
+name = "Nova Lands"
+home = "https://discord.com/channels/731205301247803413/1341453886598287493"
+default_url = "https://github.com/Foxolotl713/NovaLandsMods/releases/download/ap{{version}}/novalands.apworld"
+
+[versions]
+"0.2.1" = {}

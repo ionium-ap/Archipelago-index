@@ -1,0 +1,5 @@
+name = "Manual_MarioGolfN64SideGames_QuickKero"
+display_name = "Manual: Mario Golf N64 Side Games"
+
+[versions]
+"1.0.0" = { url = "https://raw.githubusercontent.com/QuickKero/Archipelago_Mario_Golf_N64_Side_Games_Manual/0470a36fd82be19fc3d002e74bde43537224d8d3/manual_mariogolfn64sidegames_quickkero.apworld" }

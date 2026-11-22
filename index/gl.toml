@@ -8,3 +8,18 @@ default_url = "https://github.com/jamesbrq/GauntletLegendsAP/releases/download/v
 "2.1.0" = {}
 "2.1.1" = {}
 "2.1.5" = {}
+"2.1.7" = {}
+
+# Gauntlet Legends is a core world from Archipelago 0.6.8 on. There the core copy is used and
+# these releases are not offered.
+[releases]
+"1.7.1" = { max_ap_version = "0.6.7" }
+"1.7.2" = { max_ap_version = "0.6.7" }
+"2.1.0" = { max_ap_version = "0.6.7" }
+"2.1.1" = { max_ap_version = "0.6.7" }
+"2.1.5" = { max_ap_version = "0.6.7" }
+"2.1.7" = { max_ap_version = "0.6.7" }
+
+[base.">=0.6.8"]
+supported = true
+default_version = "latest_supported"

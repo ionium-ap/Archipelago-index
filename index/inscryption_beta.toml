@@ -1,0 +1,6 @@
+name = "Inscryption Beta"
+home = "https://discord.com/channels/731205301247803413/1356651394320437469"
+default_url = "https://github.com/empathy-mp3/Archipelago_Inscryption/releases/download/v{{version}}/inscryption_beta.apworld"
+
+[versions]
+"1.5.4" = {}

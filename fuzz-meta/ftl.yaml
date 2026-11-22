@@ -1,0 +1,78 @@
+meta_description: >-
+  These constraints cover the refusals a random option set walks into: a layout
+  the seed is required to contain being named in excluded_layouts, and a goal
+  naming layouts the chosen ship_layouts does not reach. Exclusions stay
+  randomized wherever the world can still accept them.
+
+'FTL: Faster Than Light':
+  fuzz_constraints:
+    # _draw_layouts: the Kestrel A is always in the seed unless kestrel_key is on
+    # (options.always_unlocked_layouts); excluding it is an OptionError.
+    - option: kestrel_key
+      if_value: 'false'
+      then_exclude:
+        excluded_layouts: [Kestrel Cruiser, Kestrel Cruiser A, Kestrel A]
+    # _draw_layouts: the starting ship is always in the seed.
+    - option: start_ship
+      if_value: kestrel_cruiser
+      then_exclude:
+        excluded_layouts: [Kestrel Cruiser, Kestrel Cruiser A, Kestrel A]
+    - option: start_ship
+      if_value: lanius_cruiser
+      then_exclude:
+        excluded_layouts: [Lanius Cruiser, Lanius Cruiser A, Lanius A]
+    - option: start_ship
+      if_value: engi_cruiser
+      then_exclude:
+        excluded_layouts: [Engi Cruiser, Engi Cruiser A, Engi A]
+    - option: start_ship
+      if_value: crystal_cruiser
+      then_exclude:
+        excluded_layouts: [Crystal Cruiser, Crystal Cruiser A, Crystal A]
+    - option: start_ship
+      if_value: zoltan_cruiser
+      then_exclude:
+        excluded_layouts: [Zoltan Cruiser, Zoltan Cruiser A, Zoltan A]
+    - option: start_ship
+      if_value: federation_cruiser
+      then_exclude:
+        excluded_layouts: [Federation Cruiser, Federation Cruiser A, Federation A]
+    - option: start_ship
+      if_value: slug_cruiser
+      then_exclude:
+        excluded_layouts: [Slug Cruiser, Slug Cruiser A, Slug A]
+    - option: start_ship
+      if_value: mantis_cruiser
+      then_exclude:
+        excluded_layouts: [Mantis Cruiser, Mantis Cruiser A, Mantis A]
+    - option: start_ship
+      if_value: rock_cruiser
+      then_exclude:
+        excluded_layouts: [Rock Cruiser, Rock Cruiser A, Rock A]
+    - option: start_ship
+      if_value: stealth_cruiser
+      then_exclude:
+        excluded_layouts: [Stealth Cruiser, Stealth Cruiser A, Stealth A]
+    # _draw_layouts: a layout named in victory_layouts may not be excluded. The two
+    # sets can't be cross-checked here, so victory_selection runs without exclusions.
+    - option: goal
+      if_value: victory_selection
+      then:
+        excluded_layouts: []
+    # validate_goal: every layout of victory_layouts must be allowed by ship_layouts.
+    - option: ship_layouts
+      if_value: type_a_only
+      then_exclude:
+        victory_layouts: [Lanius Cruiser B, Lanius B, Engi Cruiser B, Engi B, Crystal Cruiser B, Crystal B,
+                          Zoltan Cruiser B, Zoltan B, Federation Cruiser B, Federation B, Kestrel Cruiser B,
+                          Kestrel B, Slug Cruiser B, Slug B, Mantis Cruiser B, Mantis B, Rock Cruiser B, Rock B,
+                          Stealth Cruiser B, Stealth B,
+                          Engi Cruiser C, Engi C, Zoltan Cruiser C, Zoltan C, Federation Cruiser C, Federation C,
+                          Kestrel Cruiser C, Kestrel C, Slug Cruiser C, Slug C, Mantis Cruiser C, Mantis C,
+                          Rock Cruiser C, Rock C, Stealth Cruiser C, Stealth C]
+    - option: ship_layouts
+      if_value: up_to_type_b
+      then_exclude:
+        victory_layouts: [Engi Cruiser C, Engi C, Zoltan Cruiser C, Zoltan C, Federation Cruiser C, Federation C,
+                          Kestrel Cruiser C, Kestrel C, Slug Cruiser C, Slug C, Mantis Cruiser C, Mantis C,
+                          Rock Cruiser C, Rock C, Stealth Cruiser C, Stealth C]

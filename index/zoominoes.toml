@@ -1,0 +1,6 @@
+name = "Zoominoes"
+home = "https://discord.com/channels/731205301247803413/1533879013376917524"
+default_url = "https://github.com/chickentuna/Archipelago-Zoominoes/releases/download/v{{version}}/zoominoes.apworld"
+
+[versions]
+"0.1.2" = {}

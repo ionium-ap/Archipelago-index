@@ -1,0 +1,7 @@
+name = "Manual_AnimalCrossing_FridayFables"
+display_name = "Manual: Animal Crossing"
+home = "https://discord.com/channels/1097532591650910289/1515542261599961088"
+default_url = "https://github.com/FedoraFriday/Animal-Crossing-Manual/releases/download/{{version}}/manual_animalcrossing_fridayfables.apworld"
+
+[versions]
+"1.1.0" = { url = "https://github.com/FedoraFriday/Animal-Crossing-Manual/releases/download/1.1/manual_animalcrossing_fridayfables.apworld" }

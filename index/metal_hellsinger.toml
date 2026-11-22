@@ -1,0 +1,6 @@
+name = "Metal: Hellsinger"
+home = "https://discord.com/channels/731205301247803413/1502575733569228912"
+default_url = "https://github.com/DanielSchaack/ArchipelagoMetalHellsinger/releases/download/{{version}}/metal_hellsinger.apworld"
+
+[versions]
+"1.1.3" = {}

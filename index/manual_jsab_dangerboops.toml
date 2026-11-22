@@ -1,0 +1,6 @@
+name = "Manual_JSAB_Dangerboops"
+display_name = "Manual: Just Shapes and Beats"
+default_url = "https://github.com/Dangerboops/manual_jsab_dangerboops/releases/download/v{{version}}/manual_jsab_dangerboops.apworld"
+
+[versions]
+"0.1.0" = {}

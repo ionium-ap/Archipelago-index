@@ -1,0 +1,5 @@
+name = "Marbles! Balance Challenge"
+home = "https://github.com/mariokirby1703/Lumas-Archipelago/tree/Marbles!-Balance-Challenge-AP"
+
+[versions]
+"0.2.1" = { url = "https://github.com/mariokirby1703/Lumas-Archipelago/releases/download/marbles_balance_challenge_v0.2.1/marbles_balance_challenge.apworld" }

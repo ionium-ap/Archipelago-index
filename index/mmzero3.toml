@@ -1,0 +1,7 @@
+name = "Mega Man Zero 3"
+home = "https://discord.com/channels/731205301247803413/1172869977838190622"
+default_url = "https://github.com/brodieberger/MMZero3Archipelago/releases/download/v{{version}}/mmzero3.apworld"
+
+[versions]
+"0.3.5" = {}
+"0.3.6" = {}

@@ -1,0 +1,6 @@
+name = "Jak II"
+home = "https://discord.com/channels/731205301247803413/1369067607290024056"
+default_url = "https://github.com/narramoment/Archipelago/releases/download/{{version}}/jakii.apworld"
+
+[versions]
+"0.2.3" = {}

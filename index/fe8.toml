@@ -3,7 +3,6 @@ name = "Fire Emblem Sacred Stones"
 default_url = "https://github.com/CT075/Archipelago/releases/download/fe8-{{version}}/fe8.apworld"
 
 [versions]
-"0.3.2" = {}
 "0.3.3-rc1" = { url = "https://github.com/CT075/Archipelago/releases/download/fe8-alpha-0.3.3-rc1/fe8.apworld" }
 "0.4.0-rc2" = { url = "https://github.com/CT075/Archipelago/releases/download/fe8-alpha-0.4.0-rc2/fe8.apworld" }
 "0.4.2" = {}

@@ -1,0 +1,6 @@
+name = "Evolve"
+home = "https://discord.com/channels/731205301247803413/1480281342687055993"
+default_url = "https://github.com/The1stBurb/EvolveAPWorld/releases/download/v{{version}}/evolve.apworld"
+
+[versions]
+"0.3.17" = {}

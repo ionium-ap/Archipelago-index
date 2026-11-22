@@ -1,0 +1,6 @@
+name = "Vision Soft Reset"
+home = "https://discord.com/channels/731205301247803413/1138773094769627187"
+default_url = "https://github.com/kumquat-ir/Archipelago/releases/download/vsr-1.0.1/vision_soft_reset.apworld"
+
+[versions]
+"1.0.1" = {}
