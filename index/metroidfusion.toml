@@ -5,4 +5,4 @@ default_url = "https://github.com/StalledStorm/ArchipelagoMine/releases/download
 [versions]
 "0.0.17" = { url = "https://github.com/Rosalie-A/Archipelago/releases/download/MF-v17/metroidfusion.apworld" }
 "0.0.21+hotfix3" = { url = "https://github.com/StalledStorm/ArchipelagoMine/releases/download/v21/metroidfusion.apworld" }
-"1.22.4" = {}
+"1.23.0" = {}
