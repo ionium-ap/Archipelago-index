@@ -1,9 +1,5 @@
 name = "Castlevania II: Simon's Quest"
 home = "https://discord.com/channels/731205301247803413/1347791445360115763"
-disabled = true
 
 [releases]
-"1.0.0" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/cv21.0/cv2_sq.apworld" min_ap_version = "0.6.8" }
-
-[base.">=0.6.8"]
-disabled = false
+"1.0.0" = { url = "https://github.com/PinkSwitch/Archipelago/releases/download/cv21.0/cv2_sq.apworld", min_ap_version = "0.6.8" }
