@@ -1,6 +1,6 @@
 name = "Library of Ruina"
 home = "https://discord.com/channels/1085716850370957462/1137643745051955200"
-default_url = "https://github.com/Az-LastPenguin/LORAP/releases/download/v1.0.0-eta.3/lor.apworld"
+default_url = "https://github.com/Az-LastPenguin/LORAP/releases/download/v{{version}}/lor.apworld"
 
 [versions]
 "1.0.0-eta.3" = {}
