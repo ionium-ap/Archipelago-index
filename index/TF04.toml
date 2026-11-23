@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1443752107948638319"
 default_url = "https://github.com/walle515/Transformers-2004-APWorld/releases/download/{{version}}/TF04.apworld"
 
 [versions]
-"1.0.0" = {}
+"1.0.1" = {}
