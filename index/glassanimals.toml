@@ -1,7 +1,5 @@
 name = "Glass Animals Discography"
-home = "https://discord.com/channels/731205301247803413/1543071773602615337"
-default_url = "https://github.com/benny-dreamly/Archipelago/releases/download/ga-{{version}}/glassanimals.apworld"
+disabled = true
+# The apworld author explicitly requested to be removed from the index (PR#818)
 
 [versions]
-"1.0.0" = {}
-"1.0.1" = {}

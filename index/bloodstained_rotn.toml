@@ -1,0 +1,6 @@
+name = "Bloodstained: Ritual of the Night"
+home = "https://discord.com/channels/731205301247803413/1069069419977912321"
+default_url = "https://github.com/vgfreak95/BloodstainedAP/releases/download/{{version}}/bloodstained_rotn.apworld"
+
+[versions]
+"1.1.1" = {}
