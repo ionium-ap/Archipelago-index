@@ -5,3 +5,4 @@ default_url = "https://github.com/Omeeeeega/SonicFrontiersAPWorld/releases/downl
 
 [versions]
 "0.2.2" = {}
+"0.2.3" = { url = "https://github.com/OnakuTV/SonicFrontiersAPWorld/releases/download/v0.2.3/sonic_frontiers.apworld" }
