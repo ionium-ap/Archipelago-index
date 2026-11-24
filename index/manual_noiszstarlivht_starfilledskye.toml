@@ -1,0 +1,6 @@
+name = "Manual: Noisz Starlivht"
+home = "https://ptb.discord.com/channels/1097532591650910289/1574894701658636308"
+default_url = "https://github.com/StarFilledSkye/Noisz-Starlivht-AP-Manual/releases/download/V1.1/manual_noiszstarlivht_starfilledskye.apworld"
+
+[versions]
+"V1.1" = {}
