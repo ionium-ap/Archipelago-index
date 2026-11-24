@@ -5,3 +5,4 @@ default_url = "https://github.com/kenniky/ArchipelagoSSE/releases/download/v{{ve
 [versions]
 "0.2.6" = {}
 "0.3.0" = {}
+"0.3.1+1" = { url = "https://github.com/kenniky/ArchipelagoSSE/releases/download/v0.3.1.1/ssbb_sse.apworld" }
