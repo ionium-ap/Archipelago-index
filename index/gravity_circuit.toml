@@ -5,4 +5,4 @@ default_url = "https://github.com/MuratDev41/gravity-circuit-ap/releases/downloa
 [versions]
 "0.10.0" = {}
 "0.11.0" = {}
-"1.0.0" = {}
+"1.1.0" = {}
