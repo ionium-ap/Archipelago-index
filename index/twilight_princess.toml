@@ -1,0 +1,6 @@
+name = "Twilight Princess"
+home = "https://discord.com/channels/731205301247803413/1369050080887312506"
+default_url = "https://github.com/WritingHusky/Twilight_Princess_apworld/releases/download/v{{version}}/twilight_princess.apworld"
+
+[versions]
+"0.4.1" = {}
