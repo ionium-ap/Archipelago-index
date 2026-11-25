@@ -1,0 +1,6 @@
+name = "Touhou Fuujinroku ~ Mountain of Faith"
+home = "https://discord.com/channels/731205301247803413/1523376349685874849"
+default_url = "https://github.com/Nepley/mof-apworld/releases/download/v{{verion}}/th10.apworld"
+
+[versions]
+"0.2.0" = {}
