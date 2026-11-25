@@ -1,0 +1,6 @@
+name = "Ys VIII: Lacrimosa of Dana"
+home = "https://discord.com/channels/731205301247803413/1260965063397871657"
+default_url = "https://github.com/junglechief87/Ys-8-AP-World/releases/download/v{{version}}b/ys_8.apworld"
+
+[versions]
+"1.2.1" = {}
