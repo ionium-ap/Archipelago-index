@@ -5,3 +5,4 @@ default_url = "https://github.com/Kryen112/AP_Stick_Ranger/releases/download/{{v
 [versions]
 "1.8.2" = {}
 "1.8.12" = {}
+"2.0.0" = {}
