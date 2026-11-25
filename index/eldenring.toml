@@ -1,0 +1,6 @@
+name = "EldenRing"
+display_name = "Elden Ring"
+home = "https://discord.com/channels/731205301247803413/1559473033427685417"
+
+[versions]
+"0.1.4" = { url = "https://github.com/thefifthmatt/SoulsRandomizers/releases/download/eldenring-ap-0.1.4/eldenring.apworld" }
