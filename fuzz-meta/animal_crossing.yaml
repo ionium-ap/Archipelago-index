@@ -1,0 +1,31 @@
+Animal Crossing:
+  villager_blacklist: []
+  
+  # favor_pools * favors_per_pool cannot exceed 100
+  favor_pools: random-range-1-10
+  favors_per_pool: random-range-1-10
+  
+  fuzz_constraints:
+    - option: loansanity
+      if_value: 'false'
+      then_exclude:
+        goal: ["Statue"]
+    - option: museumsanity
+      if_value: 'false'
+      then_exclude:
+        goal: ["Museum"]
+    - option: catalogsanity
+      if_value: 'false'
+      then_exclude:
+        goal: ["Catalog"]
+    - option: goal
+      if_value: []
+      then:
+        goal: random # rolls a random valid goal
+    - option: museumsanity
+      if_value: 'true'
+      then:
+        bug_checks: # museumsanity requires 1 of bug, fish, or fossil checks, so just force this one on
+          journal: 1
+          museum: 1
+          both: 1
