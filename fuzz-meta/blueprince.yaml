@@ -1,0 +1,27 @@
+meta_description: Constrains settings that are still being developed for the AP world.
+
+Blue Prince:
+  fuzz_constraints:
+    # overwrites sanctum goal to room 46
+    - option: goal_type
+      if_value: sanctum
+      then:
+        goal_type: room46
+    
+    # overwrites ascension goal to room 46
+    - option: goal_type
+      if_value: ascend
+      then:
+        goal_type: room46
+
+    # overwrites tunnel goal to room 46
+    - option: goal_type
+      if_value: tunnel
+      then:
+        goal_type: room46
+    
+    # overwrites blueprints goal to room 46
+    - option: goal_type
+      if_value: blueprints
+      then:
+        goal_type: room46
