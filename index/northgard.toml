@@ -4,3 +4,4 @@ default_url = "https://github.com/ChakraaThePanda/Archipelago-Northgard/releases
 
 [versions]
 "2026.9.14" = { url = "https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/download/2026.09.14/northgard.apworld" }
+"2026.11.23+2" = { url = "https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/download/2026.11.23.2/northgard.apworld" }
