@@ -1,0 +1,5 @@
+name = "Duck Life 4"
+home = "https://discord.com/channels/731205301247803413/1469378698762387566"
+
+[versions]
+"1.0.0" = { url = "https://github.com/spencer2585/Duck-Life-4-Archipelago/releases/download/1.0.0_HF2/DuckLife4.apworld" }
