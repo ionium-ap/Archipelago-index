@@ -1,4 +1,4 @@
 name = "Starcraft 2"
 home = "https://archipelago.gg"
 supported = true
-disabled = true # Nice 8% failure rate
+# Nice 8% failure rate
