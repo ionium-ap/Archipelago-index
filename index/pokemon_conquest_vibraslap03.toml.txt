@@ -1,0 +1,5 @@
+name = "Manual: Pokemon Conquest"
+default_url = "https://github.com/vibraslap03/Pokemon_Conquest_Manuals/releases/download/v{{version}}/manual_pokemonconquest_vibraslap03"
+
+[versions]
+"0.2.0" = {}
