@@ -1,0 +1,6 @@
+name = "Manual: Dragon Hopper"
+home = "https://discord.com/channels/1097532591650910289/1570589348166901982"
+default_url = "https://github.com/MosaicMario/DragonHopper_ManualAP/releases/download/v1.1.0/manual_dragonhopper_mosaicmario.apworld"
+
+[versions]
+"1.1.0" = {}
