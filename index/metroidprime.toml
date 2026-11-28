@@ -1,0 +1,6 @@
+name = "Metroid Prime"
+home = "https://discord.com/channels/731205301247803413/1425600401733980301"
+default_url = "https://github.com/UltiNaruto/MetroidAPrime/releases/download/v0.5.4-h1/metroidprime.apworld"
+
+[versions]
+"0.5.4-h1" = {}
